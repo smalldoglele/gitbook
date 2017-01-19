@@ -1,7 +1,7 @@
 * 配置多个负载均衡节点，使用模块名称来区分
 * 调整access\_log日志配置信息，最新版的需要在server中指定配置日志的自定义格式才能生效；
 * 配置文件中，在ubuntu中nginx设置，如顶层设置
-  ```shell
+  ```
   ##########################################################
   #  负载均衡服务器
   ###########################################################
@@ -39,11 +39,11 @@
   }
   ```
 * server节点中指定server\_name
-  ```shell
+  ```
   server_name report-server yunwei-server kefu-server dianjia-server app-server common-server community-server contacts-server;
   ```
 * 反向代理配置，修改如下
-  ```shell
+  ```
   location /study- {
     proxy_pass   http://app-server/handler/study-;
     proxy_redirect default ;
