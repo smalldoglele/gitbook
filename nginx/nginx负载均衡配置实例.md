@@ -40,10 +40,12 @@
   }
   ```
 * server节点中指定server\_name
+
   ```
   server_name report-server yunwei-server kefu-server dianjia-server app-server common-server community-server contacts-server;
   ```
 * 反向代理配置，修改如下
+
   ```
   location /study- {
     proxy_pass   http://app-server/handler/study-;
@@ -51,6 +53,7 @@
   }
   ```
 * 配置日志格式，需要在http模块中配置如下：
+
   ```
   log_format  access_log_format  '$remote_addr - $remote_user [$time_local] "$request" '
                                '$status $body_bytes_sent "$http_referer" '
@@ -58,7 +61,8 @@
                                '"$upstream_addr" "$upstream_status" "$upstream_response_time" "$request_time"';
   ```
 * 如果要使用自定义的日志格式需要在server中声明如下：
-  ```shell
+
+  ```
   access_log /var/log/nginx/access.log access_log_format;
   ```
 
