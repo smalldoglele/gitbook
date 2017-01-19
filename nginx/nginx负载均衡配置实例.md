@@ -62,6 +62,7 @@
   ```
 * 如果要使用自定义的日志格式需要在server中声明如下：
 
+
   ```
   access_log /var/log/nginx/access.log access_log_format;
   ```
