@@ -4,9 +4,10 @@
 mysql -h 110.110.110.110 -u root -p 123
 #本地可以直接mysql –uroot -p
 ```
-2.用户退出
-'exit/quit'
+2.用户退出`exit/quit`
+
 3.添加用户
+```
 mysql.user表保存的是用户的登录信息
 直接添加无权限
 insert into mysql.user (host,user,password) values('%','walden',PASSWORD('walden'));
