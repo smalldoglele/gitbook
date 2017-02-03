@@ -1,5 +1,5 @@
 + 代理链的生成
-```
+```java
 /***
 *注解里描述的是指定拦截方法的签名  [type,method,args] 
 *（即对哪种对象的哪种方法进行拦截），它在拦截前用于判断。
@@ -31,7 +31,7 @@ public class ExamplePlugin implements Interceptor {
 }
 ```
 + Plugin.wrap方法
-```
+```java
     public static Object wrap(Object target, Interceptor interceptor) {
        //从拦截器的注解中获取拦截的类名和方法信息
        Map<Class<?>, Set<Method>> signatureMap =getSignatureMap(interceptor);
