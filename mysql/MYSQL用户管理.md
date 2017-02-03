@@ -8,24 +8,29 @@ mysql -h 110.110.110.110 -u root -p 123
 
 3.添加用户
 ```
-mysql.user表保存的是用户的登录信息
-直接添加无权限
-insert into mysql.user (host,user,password) values('%','walden',PASSWORD('walden'));
-
-添加并赋权
+#mysql.user表保存的是用户的登录信息
+#直接添加无权限
+insert into mysql.user (host,user,password) values('%','walden',PASSWORD('password'));
+#添加并赋权
 grant select on 数据库.* to '用户名'@'登录主机' identified by '密码'
-
-四、        用户权限
-添加权限
+```
+4.用户权限
+```
+#添加权限
 grant 权限 on 数据库.表 to '用户名'@'登录主机';
-
-权限： select ,update,delete,insert(表数据)、create,alert,drop(表结构)、references(外键)、create temporary tables(创建临时表)、index(操作索引)、create view,show view(视图)、create routine,alert routine,execute(存储过程)、all,all privileges(所有权限)
-
-数据库：数据库名或者*(所有数据库)
-
-表：表名或者*(某数据库下所有表)
-
-主机:主机名或者%(任何其他主机)
+####################################################
+#权限:select ,update,delete,insert(表数据)、
+# create,alert,drop(表结构)、
+# references(外键)、
+# create temporary tables(创建临时表)、
+# index(操作索引)、
+# create view,show view(视图)、
+# create routine,alert routine,execute(存储过程)、
+# all,all privileges(所有权限)
+####################################################
+#数据库：数据库名或者*(所有数据库)
+#表：表名或者*(某数据库下所有表)
+#主机:主机名或者%(任何其他主机)
 
 例：grant selec,insert,update,delete on *.* to 'walden'@'%';
 
@@ -38,7 +43,7 @@ revoke 权限 on 数据库.表 from '用户名'@'登录主机';//将to改为from
 show grants;//自己
 
 show grants for dba@localhost;//指定用户指定host
-
+```
 五、        删除用户
 delete from mysql.user where user='' and host='';
 
