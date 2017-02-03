@@ -12,3 +12,4 @@
     * [数据库设置用户名和密码](mongodb/MongoDB数据库设置用户名和密码.md)
 * [Mysql数据库配置](mysql/README.md)
 * [Linux服务器配置](linux/README.md)
+    * [查找文件或者内容](linux/查找文件或者内容.md)
