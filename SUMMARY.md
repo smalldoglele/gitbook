@@ -11,6 +11,7 @@
     * [数据库备份操作](mongodb/Mongodb数据库备份操作.md)
     * [数据库设置用户名和密码](mongodb/MongoDB数据库设置用户名和密码.md)
 * [Mysql数据库配置](mysql/README.md)
+    * [MYSQL用户管理](mysql/MYSQL用户管理.md)
 * [Linux服务器配置](linux/README.md)
     * [查找文件或者内容](linux/查找文件或者内容.md)
 * [Python程序纪要](python/README.md)
