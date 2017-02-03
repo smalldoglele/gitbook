@@ -1,4 +1,5 @@
 `对照ubuntu源中的版本是否是官网最新版，一般源里面的redis版本比较老,所以才需要编译安装`
+
 [redis官网下载](https://redis.io/download)
 
 + 进入到usr文件夹中
