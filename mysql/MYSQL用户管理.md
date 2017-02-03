@@ -1,59 +1,59 @@
-1.ÓÃ»§µÇÂ¼
+1.ç”¨æˆ·ç™»å½•
 ```
-#¸ñÊ½:mysql -hÖ÷»úµØÖ· -uÓÃ»§Ãû -pÓÃ»§ÃÜÂë
+#æ ¼å¼:mysql -hä¸»æœºåœ°å€ -uç”¨æˆ·å -pç”¨æˆ·å¯†ç 
 mysql -h 110.110.110.110 -u root -p 123
-#±¾µØ¿ÉÒÔÖ±½Ómysql ¨Curoot -p
+#æœ¬åœ°å¯ä»¥ç›´æ¥mysql â€“uroot -p
 ```
-2.ÓÃ»§ÍË³ö
+2.ç”¨æˆ·é€€å‡º
 'exit/quit'
-3.Ìí¼ÓÓÃ»§
-mysql.user±í±£´æµÄÊÇÓÃ»§µÄµÇÂ¼ĞÅÏ¢
-Ö±½ÓÌí¼ÓÎŞÈ¨ÏŞ
+3.æ·»åŠ ç”¨æˆ·
+mysql.userè¡¨ä¿å­˜çš„æ˜¯ç”¨æˆ·çš„ç™»å½•ä¿¡æ¯
+ç›´æ¥æ·»åŠ æ— æƒé™
 insert into mysql.user (host,user,password) values('%','walden',PASSWORD('walden'));
 
-Ìí¼Ó²¢¸³È¨
-grant select on Êı¾İ¿â.* to 'ÓÃ»§Ãû'@'µÇÂ¼Ö÷»ú' identified by 'ÃÜÂë'
+æ·»åŠ å¹¶èµ‹æƒ
+grant select on æ•°æ®åº“.* to 'ç”¨æˆ·å'@'ç™»å½•ä¸»æœº' identified by 'å¯†ç '
 
-ËÄ¡¢        ÓÃ»§È¨ÏŞ
-Ìí¼ÓÈ¨ÏŞ
-grant È¨ÏŞ on Êı¾İ¿â.±í to 'ÓÃ»§Ãû'@'µÇÂ¼Ö÷»ú';
+å››ã€        ç”¨æˆ·æƒé™
+æ·»åŠ æƒé™
+grant æƒé™ on æ•°æ®åº“.è¡¨ to 'ç”¨æˆ·å'@'ç™»å½•ä¸»æœº';
 
-È¨ÏŞ£º select ,update,delete,insert(±íÊı¾İ)¡¢create,alert,drop(±í½á¹¹)¡¢references(Íâ¼ü)¡¢create temporary tables(´´½¨ÁÙÊ±±í)¡¢index(²Ù×÷Ë÷Òı)¡¢create view,show view(ÊÓÍ¼)¡¢create routine,alert routine,execute(´æ´¢¹ı³Ì)¡¢all,all privileges(ËùÓĞÈ¨ÏŞ)
+æƒé™ï¼š select ,update,delete,insert(è¡¨æ•°æ®)ã€create,alert,drop(è¡¨ç»“æ„)ã€references(å¤–é”®)ã€create temporary tables(åˆ›å»ºä¸´æ—¶è¡¨)ã€index(æ“ä½œç´¢å¼•)ã€create view,show view(è§†å›¾)ã€create routine,alert routine,execute(å­˜å‚¨è¿‡ç¨‹)ã€all,all privileges(æ‰€æœ‰æƒé™)
 
-Êı¾İ¿â£ºÊı¾İ¿âÃû»òÕß*(ËùÓĞÊı¾İ¿â)
+æ•°æ®åº“ï¼šæ•°æ®åº“åæˆ–è€…*(æ‰€æœ‰æ•°æ®åº“)
 
-±í£º±íÃû»òÕß*(Ä³Êı¾İ¿âÏÂËùÓĞ±í)
+è¡¨ï¼šè¡¨åæˆ–è€…*(æŸæ•°æ®åº“ä¸‹æ‰€æœ‰è¡¨)
 
-Ö÷»ú:Ö÷»úÃû»òÕß%(ÈÎºÎÆäËûÖ÷»ú)
+ä¸»æœº:ä¸»æœºåæˆ–è€…%(ä»»ä½•å…¶ä»–ä¸»æœº)
 
-Àı£ºgrant selec,insert,update,delete on *.* to 'walden'@'%';
+ä¾‹ï¼šgrant selec,insert,update,delete on *.* to 'walden'@'%';
 
-³·ÏúÈ¨ÏŞ
-revoke È¨ÏŞ on Êı¾İ¿â.±í from 'ÓÃ»§Ãû'@'µÇÂ¼Ö÷»ú';//½«to¸ÄÎªfrom
+æ’¤é”€æƒé™
+revoke æƒé™ on æ•°æ®åº“.è¡¨ from 'ç”¨æˆ·å'@'ç™»å½•ä¸»æœº';//å°†toæ”¹ä¸ºfrom
 
-Àı£ºrevoke all on *.* from ¡®walden¡¯@¡¯%¡¯;
+ä¾‹ï¼šrevoke all on *.* from â€˜waldenâ€™@â€™%â€™;
 
-²é¿´È¨ÏŞ
-show grants;//×Ô¼º
+æŸ¥çœ‹æƒé™
+show grants;//è‡ªå·±
 
-show grants for dba@localhost;//Ö¸¶¨ÓÃ»§Ö¸¶¨host
+show grants for dba@localhost;//æŒ‡å®šç”¨æˆ·æŒ‡å®šhost
 
-Îå¡¢        É¾³ıÓÃ»§
+äº”ã€        åˆ é™¤ç”¨æˆ·
 delete from mysql.user where user='' and host='';
 
-Áù¡¢        ĞŞ¸ÄÃÜÂë
+å…­ã€        ä¿®æ”¹å¯†ç 
 update mysql.user set password=PASSWORD('111111') where user='root';
 
-Æß¡¢        ÕÒ»ØÃÜÂë
-¹Ø±Õmysql·şÎñ
+ä¸ƒã€        æ‰¾å›å¯†ç 
+å…³é—­mysqlæœåŠ¡
 killall -TERM mysqld
 
-ĞŞ¸ÄÅäÖÃÎÄ¼ş
+ä¿®æ”¹é…ç½®æ–‡ä»¶
 vi /etc/my.cnf
 
-ÔÚ[mysqld]µÄ¶ÎÖĞ¼ÓÉÏÒ»¾ä£ºskip-grant-tables
+åœ¨[mysqld]çš„æ®µä¸­åŠ ä¸Šä¸€å¥ï¼šskip-grant-tables
 
-ÀıÈç£º
+ä¾‹å¦‚ï¼š
 
 [mysqld]
 
@@ -63,39 +63,39 @@ socket=/var/lib/mysql/mysql.sock
 
 skip-grant-tables
 
-ÖØÆômysqld
+é‡å¯mysqld
 service mysqld restart
 
-µÇÂ¼
+ç™»å½•
 mysql -uroot -p
 
-ĞŞ¸ÄÃÜÂë
+ä¿®æ”¹å¯†ç 
 update mysql.user set password=PASSWORD('111111') where user='root';
 
-flush privileges;//Ë¢ĞÂÈ¨ÏŞ
+flush privileges;//åˆ·æ–°æƒé™
 
-ĞŞ¸ÄÅäÖÃÎÄ¼ş
+ä¿®æ”¹é…ç½®æ–‡ä»¶
  vi /etc/my.cnf
 
-È¥µôÖ®Ç°µÄ¸Ä¶¯
+å»æ‰ä¹‹å‰çš„æ”¹åŠ¨
 
-ÖØÆô·şÎñ
-ÉèÖÃÔ¶³ÌÓÃ»§
-°Ë¡¢        Ô¶³ÌÓÃ»§
-¢Ù     ÏŞÖÆÔÚÖ¸¶¨ipµÇÂ¼hostÎªipÏêÇéÇë¿´ Ìí¼ÓÈ¨ÏŞ
+é‡å¯æœåŠ¡
+è®¾ç½®è¿œç¨‹ç”¨æˆ·
+å…«ã€        è¿œç¨‹ç”¨æˆ·
+â‘      é™åˆ¶åœ¨æŒ‡å®šipç™»å½•hostä¸ºipè¯¦æƒ…è¯·çœ‹ æ·»åŠ æƒé™
 
-¢Ú     ÔÚÈÎÒâÔ¶³ÌipµÇÂ¼hostÎª%ÏêÇéÇë¿´ Ìí¼ÓÈ¨ÏŞ
+â‘¡     åœ¨ä»»æ„è¿œç¨‹ipç™»å½•hostä¸º%è¯¦æƒ…è¯·çœ‹ æ·»åŠ æƒé™
 
-Ô¶³Ì·ÃÎÊ
-mysql -h110.110.110.110 -uroot -p123;//Ö¸¶¨hÎªipÏêÇéÇë¿´ ÓÃ»§µÇÂ¼
-
- 
+è¿œç¨‹è®¿é—®
+mysql -h110.110.110.110 -uroot -p123;//æŒ‡å®šhä¸ºipè¯¦æƒ…è¯·çœ‹ ç”¨æˆ·ç™»å½•
 
  
 
-Ò»Ğ©±ê×¼ÊµÀı£º
+ 
 
-1. mysql.user±íÊµÀı£ºÒ»°ãÀ´Ëµ£¬Host×Ö¶Î¶¼Ê¹ÓÃipÀ´ÏŞÖÆ£¬¶ø²»ÊÇ»úÆ÷Ãû£¨»úÆ÷Ãû¿É±ä£¬²»ÊÇÌØ±ğ¿¿Æ×£©
+ä¸€äº›æ ‡å‡†å®ä¾‹ï¼š
+
+1. mysql.userè¡¨å®ä¾‹ï¼šä¸€èˆ¬æ¥è¯´ï¼ŒHostå­—æ®µéƒ½ä½¿ç”¨ipæ¥é™åˆ¶ï¼Œè€Œä¸æ˜¯æœºå™¨åï¼ˆæœºå™¨åå¯å˜ï¼Œä¸æ˜¯ç‰¹åˆ«é è°±ï¼‰
 
 select Host, User from user;
 
@@ -112,7 +112,7 @@ select Host, User from user;
 | localhost | root | 
 +-----------------+-----------------+
 
-2. ÊÚÈ¨ÊµÀı£ºshow grants for 'helper'@'110.111.127.%'
+2. æˆæƒå®ä¾‹ï¼šshow grants for 'helper'@'110.111.127.%'
 
 +--------------------------------------------------------------------------------------------------------------------------------------------------+
 | GRANT USAGE ON *.* TO 'helper'@'110.111.127.%' IDENTIFIED BY PASSWORD 'xxxxxxxxxxxxxxxxx' WITH MAX_USER_CONNECTIONS 200 | 
