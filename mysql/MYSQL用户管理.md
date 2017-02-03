@@ -19,7 +19,7 @@ grant select on 数据库.* to '用户名'@'登录主机' identified by '密码'
 #添加权限
 grant 权限 on 数据库.表 to '用户名'@'登录主机';
 ####################################################
-#权限:select ,update,delete,insert(表数据)、
+# 权限:select ,update,delete,insert(表数据)、
 # create,alert,drop(表结构)、
 # references(外键)、
 # create temporary tables(创建临时表)、
@@ -27,10 +27,11 @@ grant 权限 on 数据库.表 to '用户名'@'登录主机';
 # create view,show view(视图)、
 # create routine,alert routine,execute(存储过程)、
 # all,all privileges(所有权限)
+# 
+# 数据库：数据库名或者*(所有数据库)
+# 表：表名或者*(某数据库下所有表)
+# 主机:主机名或者%(任何其他主机)
 ####################################################
-#数据库：数据库名或者*(所有数据库)
-#表：表名或者*(某数据库下所有表)
-#主机:主机名或者%(任何其他主机)
 
 例：grant selec,insert,update,delete on *.* to 'walden'@'%';
 
