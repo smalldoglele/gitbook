@@ -1,6 +1,7 @@
 #ubuntu16.04更换阿里源
 
 1.备份源列表
+
 ```
 #备份源列表
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
@@ -8,6 +9,7 @@ sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
 sudo vi /etc/apt/sources.list
 ```
 2.将sources.list替换成如下内容（只限于16.04）
+
 ```
 # deb cdrom:[Ubuntu 16.04 LTS _Xenial Xerus_ - Release amd64 (20160420.1)]/ xenial main restricted
 deb-src http://archive.ubuntu.com/ubuntu xenial main restricted #Added by software-properties
@@ -27,3 +29,4 @@ deb http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted
 deb-src http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted multiverse universe #Added by software-properties
 deb http://mirrors.aliyun.com/ubuntu/ xenial-security universe
 deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse
+```
