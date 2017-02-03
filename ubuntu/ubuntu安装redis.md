@@ -13,5 +13,9 @@ $ make
 ```
 ./utils/install_server.sh
 ```
++ 启动/关闭/刷新
+```
+sudo service redis-server start/stop/reload
+```
 
 
