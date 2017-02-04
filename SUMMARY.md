@@ -13,7 +13,7 @@
 * [Mysql数据库配置](mysql/README.md)
     * [Windows下安装MySQL5.7](mysql/Windows下安装MySQL5.7.md)
     * [MySQL用户管理](mysql/MySQL用户管理.md)
-    * [MySQL数据库常见问题纪要](mysql/MySQL本地可以远程连接不了.md)
+    * [MySQL数据库常见问题纪要](mysql/MySQL数据库常见问题纪要.md)
     * [Mysql常用语句纪要](mysql/mysql常用语句纪要.md)
     * [MySQL备份还原操作](mysql/mysql备份还原操作.md)
 * [Linux服务器配置](linux/README.md)
