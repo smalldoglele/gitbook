@@ -11,7 +11,7 @@
     * [数据库备份操作](mongodb/Mongodb数据库备份操作.md)
     * [数据库设置用户名和密码](mongodb/MongoDB数据库设置用户名和密码.md)
 * [Mysql数据库配置](mysql/README.md)
-    * [windows下安装mysql5.7](mysql/Windows下安装MySQL5.7.md)
+    * [Windows下安装MySQL5.7](mysql/Windows下安装MySQL5.7.md)
     * [MySQL本地可以远程连接不了](mysql/MySQL本地可以远程连接不了.md)
     * [MySQL用户管理](mysql/MySQL用户管理.md)
     * Mysql常用语句纪要
