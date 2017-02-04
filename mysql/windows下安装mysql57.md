@@ -1,32 +1,32 @@
-mysql°²×°Ä¿Â¼ÏÂµÄmy-default.iniĞŞ¸Ä³ÉÈçÏÂ
+mysqlå®‰è£…ç›®å½•ä¸‹çš„my-default.iniä¿®æ”¹æˆå¦‚ä¸‹
 ```
 basedir ="D:\\engine\\mysql-5.7.16-winx64\\"
 datadir ="D:\\engine\\mysql-5.7.16-winx64\\data"
 port = 3306
 ```
-Ê¹ÓÃ¹ÜÀíÔ±È¨ÏŞ´ò¿ªdos´°¿Ú£¬½øÈëµ½Ä¿Â¼[±ØĞë½øÈë]binÄ¿Â¼ÏÂ£¬Ö´ĞĞÏÂÃæµÄÃüÁî³õÊ¼»¯Êı¾İ¿â
+ä½¿ç”¨ç®¡ç†å‘˜æƒé™æ‰“å¼€dosçª—å£ï¼Œè¿›å…¥åˆ°ç›®å½•[å¿…é¡»è¿›å…¥]binç›®å½•ä¸‹ï¼Œæ‰§è¡Œä¸‹é¢çš„å‘½ä»¤åˆå§‹åŒ–æ•°æ®åº“
 ```dos
 mysqld --initialize --user=mysql --console
 ```
-°²×°windows·şÎñ
+å®‰è£…windowsæœåŠ¡
 ```dos
 mysqld --install MySQL
 ```
-Èç¹û°²×°Ê§°ÜÓĞÎÊÌâ£¬¿ÉÒÔÊ¹ÓÃÏÂÃæµÄÃüÁîÉ¾³ı·şÎñ
+å¦‚æœå®‰è£…å¤±è´¥æœ‰é—®é¢˜ï¼Œå¯ä»¥ä½¿ç”¨ä¸‹é¢çš„å‘½ä»¤åˆ é™¤æœåŠ¡
 ```dos
 mysqld --remove MySQL
 ```
-Èç¹û³õÊ¼»¯µÄÊ±ºò£¬Ã»ÓĞ¼Ç×¡rootµÄ³õÊ¼»¯ÃÜÂë£¬Ê¹ÓÃÏÂÃæµÄÃüÁîµÇÂ¼ 
+å¦‚æœåˆå§‹åŒ–çš„æ—¶å€™ï¼Œæ²¡æœ‰è®°ä½rootçš„åˆå§‹åŒ–å¯†ç ï¼Œä½¿ç”¨ä¸‹é¢çš„å‘½ä»¤ç™»å½• 
 ```dos
-#¹Ø±Õmysql·şÎñ
+#å…³é—­mysqlæœåŠ¡
 net start mysql
-#Ê¹ÓÃ²»²é±íÄ£Ê½£¬Æô¶¯·şÎñ
+#ä½¿ç”¨ä¸æŸ¥è¡¨æ¨¡å¼ï¼Œå¯åŠ¨æœåŠ¡
 mysqld --skip-grant-tables
 ```
-Ê¹ÓÃÏÂÃæµÄÃüÁî£¬ĞŞ¸ÄrootÃÜÂë
+ä½¿ç”¨ä¸‹é¢çš„å‘½ä»¤ï¼Œä¿®æ”¹rootå¯†ç 
 ```sql
 use mysql
 update user set authentication_string=password('new_password') where user='root' and Host = 'localhost';
-#½øÈëÖ®ºóÔÚĞŞ¸ÄÃÜÂë
+#è¿›å…¥ä¹‹ååœ¨ä¿®æ”¹å¯†ç 
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'new_password';
 ```
