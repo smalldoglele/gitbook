@@ -7,8 +7,7 @@ MySQL Server Administration
 Server Command Options
 Server System Variables
 
-如我是用的是MySQL5.6使用一下地址来参考配置：
-
+如果是是MySQL5.6使用一下地址来参考配置：
 + [服务器命令选项](https://dev.mysql.com/doc/refman/5.6/en/server-options.html "Server Command Options")
 + [服务器系统变量](https://dev.mysql.com/doc/refman/5.6/en/server-system-variables.html "Server System Variables")
 
