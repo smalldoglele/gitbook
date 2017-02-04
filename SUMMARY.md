@@ -15,7 +15,7 @@
     * [MySQL用户管理](mysql/MySQL用户管理.md)
     * [MySQL数据库常见问题纪要](mysql/MySQL本地可以远程连接不了.md)
     * [Mysql常用语句纪要](mysql/mysql常用语句纪要.md)
-    * MySQL备份还原操作
+    * [MySQL备份还原操作](mysql/mysql备份还原操作.md)
 * [Linux服务器配置](linux/README.md)
     * [查找文件或者内容](linux/查找文件或者内容.md)
 * [Python程序纪要](python/README.md)
