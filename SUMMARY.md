@@ -14,7 +14,7 @@
     * [Windows下安装MySQL5.7](mysql/Windows下安装MySQL5.7.md)
     * [MySQL本地可以远程连接不了](mysql/MySQL本地可以远程连接不了.md)
     * [MySQL用户管理](mysql/MySQL用户管理.md)
-    * Mysql常用语句纪要
+    * [Mysql常用语句纪要](mysql/mysql常用语句纪要.md)
 * [Linux服务器配置](linux/README.md)
     * [查找文件或者内容](linux/查找文件或者内容.md)
 * [Python程序纪要](python/README.md)
