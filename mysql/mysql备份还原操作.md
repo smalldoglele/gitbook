@@ -2,10 +2,10 @@
 
 
 1. 导出整个数据库
-    ```
-    ##mysqldump -u 用户名 -p 数据库名 > 导出的文件名  
-    mysqldump -u dbuser -p dbname > dbname.sql  
-    ```
+```
+##mysqldump -u 用户名 -p 数据库名 > 导出的文件名  
+mysqldump -u dbuser -p dbname > dbname.sql  
+```
 2.导出一个表
 ```
   mysqldump -u 用户名 -p 数据库名 表名> 导出的文件名
