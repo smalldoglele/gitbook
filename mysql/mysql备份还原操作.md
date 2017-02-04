@@ -8,9 +8,9 @@ mysqldump -u dbuser -p dbname > dbname.sql
 ```
 2.导出一个表
 ```
-  mysqldump -u 用户名 -p 数据库名 表名> 导出的文件名
-  mysqldump -u dbuser -p dbname users> dbname_users.sql
-  ```
+mysqldump -u 用户名 -p 数据库名 表名> 导出的文件名
+mysqldump -u dbuser -p dbname users> dbname_users.sql
+```
 3. 导出一个数据库结构
 ```
 mysqldump -u dbuser -p -d --add-drop-table dbname >d:/dbname_db.sql
@@ -19,20 +19,20 @@ mysqldump -u dbuser -p -d --add-drop-table dbname >d:/dbname_db.sql
 > + --add-drop-table 在每个create语句之前增加一个
 > + DROP-TABLE IF EXISTS语句
 
-#### 1.4. 导出某个表的部分数据
+4. 导出某个表的部分数据
 ```
 mysqldump -u用户名 -p密码 数据库名 表名 --where="筛选条件" > 导出文件路径
 ```
 ######举例如下
-
 ```
 #从test数据库的test_data表中导出id大于100的数据到 /tmp/test.sql 这个文件中
 mysqldump -uroot -p123456 test test_data --where=" id > 100" > /tmp/test.sql
 ```
-#### 1.5. 导出数据库中的存储过程和函数
-
+5. 导出数据库中的存储过程和函数
+```
 mysqldump -u [数据库用户名] -p -R [数据库用户名]>[备份文件的保存路径] 
-#### 1.6. 导出一个远程数据库到本地
+```
+6. 导出一个远程数据库到本地
 ```
 mysqldump -h192.168.0.1 -u dbuser -p dbname > dbname.sql
 ```
@@ -45,7 +45,7 @@ mysqldump -h192.168.0.1 -u dbuser -p dbname > dbname.sql
 > + mysqldump -h dbHost -u dbuser dbName --set-gtid-purged=OFF >d:/db.sql
 > + 注：这条命令最后不能加“;”分号，否则会报错：mysqldump: Couldn't find table ";"
 
-#### 1.7. 其他参数
+7. 其他参数
 ```
 –opt：此Mysqldump命令参数是可选的，如果带上这个选项代表激活了Mysqldump命令的quick，add-drop-table，add-locks，extended-insert，lock-tables参数，也就是通过–opt参数在使用Mysqldump导出Mysql数据库信息时不需要再附加上述这些参数。
 –quick：代表忽略缓冲输出，Mysqldump命令直接将数据导出到指定的SQL文件。
@@ -58,12 +58,13 @@ mysqldump -h192.168.0.1 -u dbuser -p dbname > dbname.sql
 --hex-blob ：使用十六进制格式导出二进制字符串字段。如果有二进制数据就必须使用本选项。影响到的字段类型有 BINARY、VARBINARY、BLOB。
 --where(-w): 来设定数据导出的条件。
 ```
-### 2. 导入数据库
+##**导入数据库**'
+
 1.source命令：
 > + 进入mysql数据库控制台  
 > + mysql>use 数据库  
 > + 然后使用source命令，后面参数为脚本文件(如这里用到的.sql)  
-> + mysql>source d:/dbname.sql  
+> + mysql>source d:/dbname.sql
 
 2.mysql 客户端还原
 > mysql -uroot -p {databasename} <D:\m.txt
