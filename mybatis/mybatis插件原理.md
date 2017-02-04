@@ -1,15 +1,15 @@
-+ 代理链的生成
-```java
-/***
-*注解里描述的是指定拦截方法的签名  [type,method,args] 
-*（即对哪种对象的哪种方法进行拦截），它在拦截前用于判断。
-*/
-@Intercepts({@Signature(type = Executor.class, method ="update", args = {MappedStatement.class, Object.class})})
-public class ExamplePlugin implements Interceptor {
-	/**
-	*是实现拦截逻辑的地方，内部要通过invocation.proceed()显式地推进责任链前进，
-	*也就是调用下一个拦截器拦截目标方法。
-	*/
+* 代理链的生成
+  ```java
+  /***
+  *注解里描述的是指定拦截方法的签名  [type,method,args] 
+  *（即对哪种对象的哪种方法进行拦截），它在拦截前用于判断。
+  */
+  @Intercepts({@Signature(type = Executor.class, method ="update", args = {MappedStatement.class, Object.class})})
+  public class ExamplePlugin implements Interceptor {
+    /**
+    *是实现拦截逻辑的地方，内部要通过invocation.proceed()显式地推进责任链前进，
+    *也就是调用下一个拦截器拦截目标方法。
+    */
     @Override
     public Object intercept(Invocation invocation) throws Throwable {
         return invocation.proceed();
@@ -28,11 +28,11 @@ public class ExamplePlugin implements Interceptor {
     @Override
     public void setProperties(Properties properties) {
     }
-}
-```
-+ Plugin.wrap方法
-```java
-    public static Object wrap(Object target, Interceptor interceptor) {
+  }
+  ```
+* Plugin.wrap方法
+  ```java
+  public static Object wrap(Object target, Interceptor interceptor) {
        //从拦截器的注解中获取拦截的类名和方法信息
        Map<Class<?>, Set<Method>> signatureMap =getSignatureMap(interceptor);
        Class<?> type = target.getClass();
@@ -44,5 +44,8 @@ public class ExamplePlugin implements Interceptor {
             return Proxy.newProxyInstance(type.getClassLoader(), interfaces, new Plugin(target,interceptor,signatureMap));
         }
         returntarget;
-    } 
-```
+    }
+  ```
+
+
+
