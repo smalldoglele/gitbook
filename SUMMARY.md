@@ -11,9 +11,9 @@
     * [数据库备份操作](mongodb/Mongodb数据库备份操作.md)
     * [数据库设置用户名和密码](mongodb/MongoDB数据库设置用户名和密码.md)
 * [Mysql数据库配置](mysql/README.md)
-    * [windows下安装mysql5.7](mysql/windows下安装mysql5.7.md)
-    * [Mysql本地可以远程连接不了](mysql/mysql本地可以远程连接不了.md)
-    * [MySQL用户管理](mysql/MYSQL用户管理.md)
+    * [windows下安装mysql5.7](mysql/Windows下安装MySQL5.7.md)
+    * [MySQL本地可以远程连接不了](mysql/MySQL本地可以远程连接不了.md)
+    * [MySQL用户管理](mysql/MySQL用户管理.md)
     * Mysql常用语句纪要
 * [Linux服务器配置](linux/README.md)
     * [查找文件或者内容](linux/查找文件或者内容.md)
