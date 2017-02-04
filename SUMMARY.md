@@ -1,4 +1,4 @@
-# 强哥的资料库
+# Summary
 
 * [前言](README.md)
 * [Nginx配置](nginx/README.md)
@@ -13,6 +13,7 @@
 * [Mysql数据库配置](mysql/README.md)
     * [MYSQL用户管理](mysql/MYSQL用户管理.md)
     * [windows下安装mysql5.7](mysql/windows下安装mysql5.7.md)
+    * [Mysql本地可以远程连接不了](mysql/mysql本地可以远程连接不了.md)
 * [Linux服务器配置](linux/README.md)
     * [查找文件或者内容](linux/查找文件或者内容.md)
 * [Python程序纪要](python/README.md)
@@ -20,3 +21,4 @@
 * [MyBatis插件介绍](mybatis/README.md)
     * [插件原理](mybatis/mybatis插件原理.md)
 * [Maven工具介绍](maven/README.md)
+
