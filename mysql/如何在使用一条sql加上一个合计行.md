@@ -10,7 +10,7 @@ with rollup;
 ```
 
 * 效果如下图
-  ![](/assets/sql_rollup.png)
+![](/assets/sql_with_rollup.png)
 
 
 
