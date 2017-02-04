@@ -18,3 +18,13 @@ netstat -apn|grep 3360
 ```
 service mysql restart
 ```
++ 如果数据库在同一个局域网站访问速度特别慢，加入这个属性并重启服务可以解决问题
+```
+[mysqld]
+#Don’t resolve hostnames 
+skip-name-resolve
+```
++ 使用下面的命令当前文件夹下，搜索所有文本文件'bind-address'配置
+```
+grep -rin 'bind-address'
+```
