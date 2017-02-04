@@ -1,16 +1,17 @@
-###1. 导出数据库
+##**导出数据库**
 
-  #### 1. 导出整个数据库
+
+1. 导出整个数据库
     ```
     ##mysqldump -u 用户名 -p 数据库名 > 导出的文件名  
     mysqldump -u dbuser -p dbname > dbname.sql  
     ```
-#### 1.2.导出一个表
+2.导出一个表
 ```
   mysqldump -u 用户名 -p 数据库名 表名> 导出的文件名
   mysqldump -u dbuser -p dbname users> dbname_users.sql
   ```
-#### 1.3. 导出一个数据库结构
+3. 导出一个数据库结构
 ```
 mysqldump -u dbuser -p -d --add-drop-table dbname >d:/dbname_db.sql
 ```
@@ -32,15 +33,18 @@ mysqldump -uroot -p123456 test test_data --where=" id > 100" > /tmp/test.sql
 
 mysqldump -u [数据库用户名] -p -R [数据库用户名]>[备份文件的保存路径] 
 #### 1.6. 导出一个远程数据库到本地
+```
 mysqldump -h192.168.0.1 -u dbuser -p dbname > dbname.sql
--h 远程数据库地址
-如果上述操作过程中遇到报错：
-mysqldump:Couldn't execute  ‘SELECT @@GTID_MODE':Unknown system variable 'GTID_MODE' (1193)  
-造成此错误的原因是因为5.6引入了Global Transaction Identifiers (GTIDs) 。GTIDs可以让主从结构复制的跟踪和比较变得简单。
-mysqldump会试图查询这个系统变量，但这个变量在5.6之前的版本中不存在，所以产生错误。
-的方法很简单。在mysqldump后加上–set-gtid-purged=OFF命令。如：  
-mysqldump -h dbHost -u dbuser dbName --set-gtid-purged=OFF >d:/db.sql  
-注：这条命令最后不能加“;”分号，否则会报错：mysqldump: Couldn't  find table ";"。
+```
+> + h 远程数据库地址
+> + 如果上述操作过程中遇到报错：
+> + mysqldump:Couldn't execute ‘SELECT @@GTID_MODE':Unknown system variable 'GTID_MODE' (1193)
+> + 造成此错误的原因是因为5.6引入了Global Transaction Identifiers (GTIDs) 。GTIDs可以让主从结构复制的跟踪和比较变得简单。
+> + mysqldump会试图查询这个系统变量，但这个变量在5.6之前的版本中不存在，所以产生错误。
+> + 的方法很简单。在mysqldump后加上–set-gtid-purged=OFF命令。如：
+> + mysqldump -h dbHost -u dbuser dbName --set-gtid-purged=OFF >d:/db.sql
+> + 注：这条命令最后不能加“;”分号，否则会报错：mysqldump: Couldn't find table ";"
+
 #### 1.7. 其他参数
 ```
 –opt：此Mysqldump命令参数是可选的，如果带上这个选项代表激活了Mysqldump命令的quick，add-drop-table，add-locks，extended-insert，lock-tables参数，也就是通过–opt参数在使用Mysqldump导出Mysql数据库信息时不需要再附加上述这些参数。
