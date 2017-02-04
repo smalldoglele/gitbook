@@ -61,14 +61,15 @@
 
 1.source命令：
 
-> * 进入mysql数据库控制台  
-> * mysql&gt;use 数据库  
-> * 然后使用source命令，后面参数为脚本文件\(如这里用到的.sql\)  
-> * mysql&gt;source d:/dbname.sql
+* 进入mysql数据库控制台  
+* mysql&gt;use 数据库  
+* 然后使用source命令，后面参数为脚本文件\(如这里用到的.sql\)  
+* mysql&gt;source d:/dbname.sql
 
 2.mysql 客户端还原
-
-> mysql -uroot -p {databasename} &lt;D:\m.txt
+```
+mysql -uroot -p {databasename} < D:\m.txt
+```
 
 
 
