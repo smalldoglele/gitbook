@@ -1,10 +1,10 @@
 * 语法如下
 ```sql
 select 
-case when date is null then '合计'
+case 
+     when date is null then '合计'
      else date
-end
-as date,
+end as date,
 sum(num) from `t` group by date 
 with rollup;
 ```
