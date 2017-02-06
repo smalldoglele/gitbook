@@ -11,7 +11,7 @@ sudo vi /etc/profile
 ```
 #JDK PATH
 export JAVA_HOME=/opt/jdk1.8.0_101
-export JRE_HOME=/opt/jdk1. 8.0_101/jre
+export JRE_HOME=/opt/jdk1.8.0_101/jre
 export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH
 export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 ```
