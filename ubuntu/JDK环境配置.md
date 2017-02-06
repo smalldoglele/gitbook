@@ -17,5 +17,5 @@ export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 ```
 4.加载环境变量
 ```
-source / etc / profile
+source /etc/ profile
 ```
