@@ -5,7 +5,7 @@
   * [负载均衡配置实例](nginx/nginx负载均衡配置实例.md)
 * [Ubuntu配置](ubuntu/README.md)
   * [JDK环境配置.md](ubuntu/JDK环境配置.md)
-  * [ubuntu16.04安装手记更换阿里源.md](ubuntu/ubuntu16.04安装手记更换阿里源.md)
+  * [更换阿里源.md](ubuntu/ubuntu16.04安装手记更换阿里源.md)
   * [ubuntu安装redis.md](ubuntu/ubuntu安装redis.md)
   * [ubuntu查看硬件信息.md](ubuntu/ubuntu查看硬件信息.md)
 * [MongoDB资料](mongodb/README.md)
