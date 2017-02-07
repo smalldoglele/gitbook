@@ -23,6 +23,7 @@ db.dropDatabase()
 ```dos
 db.copyDatabase(<from_dbname>,<to_dbname>,<from_hostname>,<username>,<password>);
 ```
+
 + 数据导出
 ```
 # mongoexport -h 地址 -d 数据库名 -c 集合名 -q 查询条件(json格式) -o 文件地址
