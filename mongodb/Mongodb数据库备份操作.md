@@ -26,8 +26,8 @@ db.copyDatabase(<from_dbname>,<to_dbname>,<from_hostname>,<username>,<password>)
 + 数据导出
 ```
 # mongoexport -h 地址 -d 数据库名 -c 集合名 -q 查询条件(json格式) -o 文件地址
-mongoexport -h 192.168.1.254 -d detect_report_dev -c detectIndex -q {projectName:'硫酸脱氢表雄甾酮'} -o
-d:/data.txt
+mongoexport -h 192.168.1.254 -d detect_report_dev -c detectIndex 
+-q {projectName:'硫酸脱氢表雄甾酮'} -od:/data.txt
 ```
 + 数据导入
 ```
