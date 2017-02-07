@@ -9,9 +9,9 @@
 #进入用户管理数据库
 use admin;
 #创建超级管理员
-db.createUser({user:'unxmongo',pwd:'unx!@#123',roles:["root"]});
+db.createUser({user:'your_user_name',pwd:'your_user_password',roles:["root"]});
 #使用超级管理员
-db.auth("unxmongo","unx!@#123");
+db.auth("your_user_name","your_user_password");
 #查看所有用户
 db.system.users.find();
 #删除用户 谨慎操作
