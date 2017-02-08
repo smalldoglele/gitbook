@@ -7,7 +7,7 @@ find /opt/ylbs -path *WEB-INF/lib |grep mobile-api | python3 analyzeJar.py
 
 ```python
 #################################################################
-# 程序用来分析多个目录中文件(jar)差异
+# 程序用来分析多个目录中jar文件差异
 # 并用共有jar和独有jar的形式展示
 # 输入参数要求是多行的目录，可以是重定向内容
 # 使用实例：
