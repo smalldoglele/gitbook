@@ -2,7 +2,7 @@
 
 + maven打war包的时候排除包含jar
 
-所有包都排除``
+所有包都排除`%regex[WEB-INF/lib/*.*jar]`
 
 ```xml
 <plugin>
