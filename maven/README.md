@@ -1,6 +1,9 @@
 ##Maven工具介绍
 
 + maven打war包的时候排除包含jar
+
+所有包都排除`%regex[WEB-INF/lib/*.*jar]`
+
 ```xml
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>

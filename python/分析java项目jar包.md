@@ -2,6 +2,8 @@
 
 ```shell
 find /opt/ylbs -path *WEB-INF/lib |grep mobile-api | python3 analyzeJar.py 
+#查找指定的三个项目模块
+find /opt/ylbs -path *WEB-INF/lib |grep "app-\|common-\|contacts-"|python3 analyzeJar.py >1.txt
 ```
 + analyzeJar.py源代码如下
 

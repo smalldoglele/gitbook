@@ -4,9 +4,9 @@
 
 + 进入到usr文件夹中
 ```
-$ wget http://download.redis.io/releases/redis-X.X.X.tar.gz
-$ tar xzf redis-3.2.7.tar.gz
-$ cd redis-3.2.7
+$ wget http://download.redis.io/redis-stable.tar.gz
+$ tar xzf redis-stable.tar.gz
+$ cd redis-stable
 $ make
 ```
 + 安装redis为Ubuntu服务
