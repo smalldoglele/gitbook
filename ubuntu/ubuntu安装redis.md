@@ -4,7 +4,7 @@
 
 + 进入到usr文件夹中
 ```
-$ wget http://download.redis.io/releases/redis-X.X.X.tar.gz
+$ wget http://download.redis.io/redis-stable.tar.gz
 $ tar xzf redis-3.2.7.tar.gz
 $ cd redis-3.2.7
 $ make
