@@ -1,0 +1,57 @@
+使用场景如下，之前有一个项目有domain,dao,service,contoller层，现在要将他的domain,dao层打成一个jar包，供其他项目使用
+
+例如：项目dip-web为war项目，现在需要一个dip-repo的jar,只包含domain,arch,repository包，供给给其他项目使用，具体操作如下
+
++ 在dip-web中配置jar如下,jar中是打包，install插件是将他们安装到本地库,运行普通的package和install即可完成
+```xml
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-jar-plugin</artifactId>
+    <executions>
+        <execution>
+            <id>package-dip-repo</id>
+            <goals>
+                <goal>jar</goal>
+            </goals>
+            <phase>package</phase>
+            <configuration>
+                <classifier>repo</classifier>
+                <includes>
+                    <include>**/domain/**</include>
+                    <include>**/arch/**</include>
+                    <include>**/repository/**</include>
+                </includes>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-install-plugin</artifactId>
+    <executions>
+        <execution>
+            <id>install-dip-repo</id>
+            <goals>
+                <goal>install-file</goal>
+            </goals>
+            <phase>install</phase>
+            <configuration>
+                <groupId>com.unionx.ylbs.detect</groupId>
+                <artifactId>dip-repo</artifactId>
+                <version>${project.version}</version>
+                <packaging>jar</packaging>
+                <file>${project.build.directory}/dip-repo.jar</file>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>
+```
++ 在需要使用的地方，引用如下
+```xml
+<dependency>
+    <groupId>com.unionx.ylbs.detect</groupId>
+    <artifactId>dip-repo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <type>jar</type>
+</dependency>
+```
