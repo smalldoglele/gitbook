@@ -48,5 +48,10 @@
 ```
 + 在需要使用的地方，引用如下
 ```xml
-
+        <dependency>
+            <groupId>com.unionx.ylbs.detect</groupId>
+            <artifactId>dip-repo</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>jar</type>
+        </dependency>
 ```
