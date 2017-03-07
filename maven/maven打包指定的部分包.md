@@ -2,7 +2,7 @@
 
 例如：项目dip-web为war项目，现在需要一个dip-repo的jar供给给其他项目使用，具体操作如下
 
-+ 在dip-web中配置jar如下 
++ 在dip-web中配置jar如下,jar中是打包，install插件是将他们安装到本地库,运行普通的package和install即可完成
 ```xml
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
