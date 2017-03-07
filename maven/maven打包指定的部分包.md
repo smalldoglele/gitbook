@@ -1,6 +1,6 @@
 使用场景如下，之前有一个项目有domain,dao,service,contoller层，现在要将他的domain,dao层打成一个jar包，供其他项目使用
 
-例如：项目dip-web为war项目，现在需要一个dip-repo的jar供给给其他项目使用，具体操作如下
+例如：项目dip-web为war项目，现在需要一个dip-repo的jar,只包含domain,arch,repository包，供给给其他项目使用，具体操作如下
 
 + 在dip-web中配置jar如下,jar中是打包，install插件是将他们安装到本地库,运行普通的package和install即可完成
 ```xml
