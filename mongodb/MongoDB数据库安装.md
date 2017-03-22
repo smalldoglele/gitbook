@@ -35,6 +35,11 @@ echo "deb [ arch=amd64,arm64,ppc64el,s390x ] http://repo.mongodb.com/apt/ubuntu 
 sudo apt-get update
 #安装最新的稳定企业版mongodb
 sudo apt-get install -y mongodb-enterprise
+#卸载
+sudo apt-get purge mongodb-enterprise*
+#删除数据库和日志文件
+sudo rm -r /var/log/mongodb
+sudo rm -r /var/lib/mongodb
 ```
 2.服务操作
 ```
@@ -44,7 +49,6 @@ sudo service mongod start
 sudo service mongod stop
 #重启服务器
 sudo service mongod restart
-
 ```
 
 
