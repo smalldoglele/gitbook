@@ -18,14 +18,14 @@ net stop MongoDB
 #删除服务
 sc delete mongodb
 ```
+
 * ### Ubuntu 16.04 下安装
 
 1.服务安装
 
-
-[MongoDB官方文档](https://docs.mongodb.com/manual/)
+[MongoDB官方文档](https://docs.mongodb.com/manual/)  
 [Ubuntu上安装MongoDB企业版](https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-on-ubuntu/)
- 
+
 ```
 #导入包管理系统使用的公钥
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6
@@ -43,7 +43,9 @@ sudo rm -r /var/lib/mongodb
 #配置文件地址
 /etc/mongod.conf
 ```
+
 2.服务操作
+
 ```
 #启动服务
 sudo service mongod start
