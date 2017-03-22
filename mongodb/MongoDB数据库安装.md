@@ -40,6 +40,8 @@ sudo apt-get purge mongodb-enterprise*
 #删除数据库和日志文件
 sudo rm -r /var/log/mongodb
 sudo rm -r /var/lib/mongodb
+#配置文件地址
+/etc/mongod.conf
 ```
 2.服务操作
 ```
