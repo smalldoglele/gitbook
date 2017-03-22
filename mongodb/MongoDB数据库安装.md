@@ -21,7 +21,7 @@ sc delete mongodb
 * ubuntu 16.04 下安装
 
  [MongoDB官方文档](https://docs.mongodb.com/manual/)
-
+ [ubuntu上安装MongoDB企业版](https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-on-ubuntu/)
 
 
 
