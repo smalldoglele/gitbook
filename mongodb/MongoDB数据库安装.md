@@ -23,8 +23,8 @@ sc delete mongodb
 1.服务安装
 
 
- [MongoDB官方文档](https://docs.mongodb.com/manual/)
- [Ubuntu上安装MongoDB企业版](https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-on-ubuntu/)
+[MongoDB官方文档](https://docs.mongodb.com/manual/)
+[Ubuntu上安装MongoDB企业版](https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-on-ubuntu/)
  
 ```
 #导入包管理系统使用的公钥
