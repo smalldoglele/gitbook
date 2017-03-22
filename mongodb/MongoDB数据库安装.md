@@ -18,7 +18,9 @@ net stop MongoDB
 #删除服务
 sc delete mongodb
 ```
-* ubuntu 16.04 下安装
+* ### Ubuntu 16.04 下安装
+
+1.服务安装
 
  [MongoDB官方文档](https://docs.mongodb.com/manual/)
  [Ubuntu上安装MongoDB企业版](https://docs.mongodb.com/manual/tutorial/install-mongodb-enterprise-on-ubuntu/)
@@ -33,6 +35,7 @@ sudo apt-get update
 #安装最新的稳定企业版mongodb
 sudo apt-get install -y mongodb-enterprise
 ```
+* 
 
 
 
