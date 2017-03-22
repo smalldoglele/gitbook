@@ -36,7 +36,16 @@ sudo apt-get update
 #安装最新的稳定企业版mongodb
 sudo apt-get install -y mongodb-enterprise
 ```
-* 
+2.服务操作
+```
+#启动服务
+sudo service mongod start
+#停止服务
+sudo service mongod stop
+#重启服务器
+sudo service mongod restart
+
+```
 
 
 
