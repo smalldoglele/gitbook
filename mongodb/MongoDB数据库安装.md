@@ -19,7 +19,6 @@ net stop MongoDB
 sc delete mongodb
 ```
 * ### Ubuntu 16.04 下安装
-
 1.服务安装
 
  [MongoDB官方文档](https://docs.mongodb.com/manual/)
