@@ -31,4 +31,5 @@
   * [打包指定的部分包.md](maven/maven打包指定的部分包.md)
 * [Redis操作配置](redis/README.md)
 * [Git教程](git/README.md)
+  * [GIT配置笔记](git/GIT配置笔记.md)
 
