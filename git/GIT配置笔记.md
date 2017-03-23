@@ -1,4 +1,5 @@
 1. 所需软件
+
     + Git-1.9.5-preview20141217.exe 官方下载
     + notepad2_4.2.25_x64.zip   nodepad2 官方下载
     + p4merge 官方下载 p4vinst64.exe p4merge
@@ -7,9 +8,6 @@
 > notepad2是用来写注释的时候，可以使用utf8
 > p4merge包含在p4vinst64中，仅仅选择p4merge即可
 > nodepad2,p4merge要加入到环境变量中
-
-
-
 
 2. 下载完成后将，nodepad2,p4merge的目录加入到path中
 3. 生成ssh秘钥 ssh-keygen -t rsa 
