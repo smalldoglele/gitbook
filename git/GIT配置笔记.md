@@ -1,5 +1,4 @@
 1. 所需软件
-
     + Git-1.9.5-preview20141217.exe 官方下载
     + notepad2_4.2.25_x64.zip   nodepad2 官方下载
     + p4merge 官方下载 p4vinst64.exe p4merge
