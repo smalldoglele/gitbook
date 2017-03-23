@@ -10,7 +10,7 @@
 2. 下载完成后将，nodepad2,p4merge的目录加入到path中
 3. 生成ssh秘钥 ssh-keygen -t rsa 
 4. 将公钥放到服务器上去
-5. 配置git bash 下文件夹/文件显示中文
+5. 配置git bash 下文件夹/文件名称中文乱码调整
 
 ```
 alias ls='ls --show-control-chars --color=auto'
