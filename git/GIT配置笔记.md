@@ -1,8 +1,12 @@
-1. 需要下载的文件
+1. 所需软件
     + Git-1.9.5-preview20141217.exe 官方下载
     + notepad2_4.2.25_x64.zip   nodepad2 官方下载
     + p4merge 官方下载 p4vinst64.exe p4merge
-##对比过kdiff3和diffMerge都没有p4merge使用效果好
+> 对比过kdiff3和diffMerge都没有p4merge使用效果好
+> 
+
+
+
 
 2. 下载完成后将，nodepad2,p4merge的目录加入到path中
 3. 生成ssh秘钥 ssh-keygen -t rsa 
