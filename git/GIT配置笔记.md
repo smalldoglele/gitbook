@@ -12,7 +12,7 @@
 3. 生成ssh秘钥 ssh-keygen -t rsa 
 4. 将公钥放到服务器上去
 5. 配置git bash 下文件夹/文件中文显示 alias ls='ls --show-control-chars --color=auto'
-7. 快速配置
+6. 快速配置
 
 ```
 ####配置用户名和邮箱
