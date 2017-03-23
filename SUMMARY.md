@@ -1,6 +1,8 @@
 # Summary
 
 * [前言](README.md)
+* [Git教程](git/README.md)
+  * [GIT配置笔记](git/GIT配置笔记.md)
 * [Nginx配置](nginx/README.md)
   * [负载均衡配置实例](nginx/nginx负载均衡配置实例.md)
 * [Ubuntu配置](ubuntu/README.md)
@@ -30,6 +32,5 @@
 * [Maven工具介绍](maven/README.md)
   * [打包指定的部分包.md](maven/maven打包指定的部分包.md)
 * [Redis操作配置](redis/README.md)
-* [Git教程](git/README.md)
-  * [GIT配置笔记](git/GIT配置笔记.md)
+
 
