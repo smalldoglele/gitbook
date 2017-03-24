@@ -21,9 +21,9 @@ alias ls='ls --show-control-chars --color=auto'
 1. 快速配置
 
 ```
-####配置用户名和邮箱
-git config --global user.name "walden wang"
-git config --global user.email "walden@goldpalm.com.cn"
+###配置用户名和邮箱
+git config --global user.name "walden"
+git config --global user.email "smalldoglele@126.com"
 ####配置命令别名
 git config --global alias.st status
 git config --global alias.ci commit
@@ -31,16 +31,11 @@ git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.dt difftool
 git config --global alias.mt mergetool
-####设置每个分支新建的时候使用变基
-git config --global branch.autosetuprebase always
-####设置文件默认推送的分支
-git config --global push.default matching 
-
 ####开启颜色显示
 git config --global color.ui true
 ####gitk显示不乱码
 git config --global gui.encoding utf-8
-#### 解决git status中文乱码 
+#### 解决git status中文乱码
 git config --global core.quotepath false
 #### 提交时候使用的编辑器默认使用UTF8可以避免乱码
 git config --global core.editor notepad2
@@ -58,9 +53,15 @@ git config --global mergetool.keepBackup false
 git config --global difftool.prompt false
 ####打开mergetool的时候 不在询问是否打开
 git config --global mergetool.prompt false
+
+####设置文件默认推送的分支
+git config --global push.default matching
 ####给每个分支设置变基 git config branch.<branchName>.rebase true
 ## 如主分支设置变基
 git config branch.master.rebase true
+####设置每个分支新建的时候使用变基
+git config --global branch.autosetuprebase always
+
 ```
 
 
