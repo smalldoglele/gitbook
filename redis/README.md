@@ -11,7 +11,7 @@ redis-cli -a java2000wl -n 0 keys shiro* | xargs redis-cli -a java2000_wl -n 0 d
     
     > Redis TTL 命令以秒为单位返回 key 的剩余过期时间
     > TTL KEY_NAME
-    >　　返回值的意义
+    > 返回值的意义
     > -2：key不存在
     > -1：存在，但未设置剩余生存时间
     > 否则，以秒为单位返回key的生存时间。
