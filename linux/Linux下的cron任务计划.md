@@ -12,3 +12,7 @@ crontab -r
 #编辑某个用户的cron服务
 crontab -e 
 ```
++ 选择重新设置编辑器
+```
+select-edtor
+```
