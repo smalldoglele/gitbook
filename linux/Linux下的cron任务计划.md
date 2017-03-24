@@ -45,3 +45,8 @@ select-editor
 #从零开始的每个7分钟执行脚本
 */7 * * * * /bin/sh /opt/test/do.sh
 ```
++ 脚本内容
+```
+!/bin/sh
+date "+%Y-%m-%d %H:%M:%S" >> /tmp/time.txt
+```
