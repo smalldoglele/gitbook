@@ -6,8 +6,9 @@
 redis-cli -a java2000wl -n 0 keys shiro* | xargs redis-cli -a java2000_wl -n 0 del
 ```
 + 查看某个键值的超时时间
-
+    
     1.TTL 命令
+    > Redis TTL 命令以秒为单位返回 key 的剩余过期时间
     > TTL KEY_NAME
     >　　返回值的意义
     > -2：key不存在
