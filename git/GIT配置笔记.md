@@ -1,12 +1,14 @@
 1. 所需软件
-    + Git-1.9.5-preview20141217.exe 官方下载
-    + notepad2_4.2.25_x64.zip   nodepad2 官方下载
-    + p4merge 官方下载 p4vinst64.exe p4merge
 
-    > 对比过kdiff3和diffMerge都没有p4merge使用效果好
-    > notepad2是用来写注释的时候，可以使用utf8
-    > p4merge包含在p4vinst64中，仅仅选择p4merge即可
-    > nodepad2,p4merge要加入到环境变量中
+   * Git [官方下载]()
+   * notepad2\_4.2.25\_x64.zip   nodepad2 官方下载
+   * p4merge 官方下载 p4vinst64.exe p4merge
+
+     > 对比过kdiff3和diffMerge都没有p4merge使用效果好  
+     > notepad2是用来写注释的时候，可以使用utf8  
+     > p4merge包含在p4vinst64中，仅仅选择p4merge即可  
+     > nodepad2,p4merge要加入到环境变量中
+
 2. 下载完成后将，nodepad2,p4merge的目录加入到path中
 3. 生成ssh秘钥 ssh-keygen -t rsa 
 4. 将公钥放到服务器上去
@@ -15,7 +17,8 @@
 ```
 alias ls='ls --show-control-chars --color=auto'
 ```
-6. 快速配置
+
+1. 快速配置
 
 ```
 ####配置用户名和邮箱
@@ -59,3 +62,6 @@ git config --global mergetool.prompt false
 ## 如主分支设置变基
 git config branch.master.rebase true
 ```
+
+
+
