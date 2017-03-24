@@ -14,5 +14,5 @@ crontab -e
 ```
 + 选择重新设置编辑器
 ```
-select-edtor
+select-editor
 ```
