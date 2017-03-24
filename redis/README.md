@@ -16,7 +16,6 @@ redis-cli -a java2000wl -n 0 keys shiro* | xargs redis-cli -a java2000_wl -n 0 d
     > 否则，以秒为单位返回key的生存时间。
     
     2.Redis Expire 命令
-    
     > Expire KEY_NAME TIME_IN_SECONDS
     > Redis Expire 命令用于设置 key 的过期时间。key 过期后将不再可用。
     > 设置成功返回 1
