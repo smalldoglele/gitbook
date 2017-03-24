@@ -13,6 +13,7 @@ crontab -r
 crontab -e 
 ```
 + 选择重新设置编辑器
+
 ```
 select-editor
 ```
