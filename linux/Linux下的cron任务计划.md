@@ -17,6 +17,7 @@ crontab -e
 select-editor
 ```
 + 任务执行格式
+
 ```
 基本格式 : 
 *　　*　　*　　*　　*　　command 
