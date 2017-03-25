@@ -35,7 +35,9 @@ git config --global alias.mt mergetool
 git config --global color.ui true
 ####gitk显示不乱码
 git config --global gui.encoding utf-8
-git config --global gui.encoding utf-8
+#####
+[i18n]     
+	commitencoding = gbk 
 #### 解决git status中文乱码
 git config --global core.quotepath false
 #### 提交时候使用的编辑器默认使用UTF8可以避免乱码
