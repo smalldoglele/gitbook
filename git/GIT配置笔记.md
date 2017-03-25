@@ -36,6 +36,8 @@ git config --global color.ui true
 ####gitk显示不乱码
 git config --global gui.encoding utf-8
 #####
+git config --global i18n.commitencoding  gbk
+
 [i18n]     
 	commitencoding = gbk 
 #### 解决git status中文乱码
