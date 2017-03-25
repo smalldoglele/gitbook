@@ -37,9 +37,6 @@ git config --global color.ui true
 git config --global gui.encoding utf-8
 #####
 git config --global i18n.commitencoding  gbk
-
-[i18n]     
-	commitencoding = gbk 
 #### 解决git status中文乱码
 git config --global core.quotepath false
 #### 提交时候使用的编辑器默认使用UTF8可以避免乱码
