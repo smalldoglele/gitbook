@@ -56,7 +56,6 @@ git config --global mergetool.keepBackup false
 git config --global difftool.prompt false
 ####打开mergetool的时候 不在询问是否打开
 git config --global mergetool.prompt false
-
 ####设置文件默认推送的分支
 git config --global push.default matching
 ####给每个分支设置变基 git config branch.<branchName>.rebase true
