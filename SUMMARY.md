@@ -24,6 +24,7 @@
   * [MySQL备份还原操作](mysql/mysql备份还原操作.md)
 * [Linux服务器配置](linux/README.md)
   * [查找文件或者内容](linux/查找文件或者内容.md)
+  * [Vim编辑器教程](linux/vimbian-ji-qi-jiao-cheng.md)
 * [Python程序纪要](python/README.md)
   * [调用webService](python/python调用webService.md)
   * [分析java项目jar包](python/分析java项目jar包.md)
@@ -32,5 +33,4 @@
 * [Maven工具介绍](maven/README.md)
   * [打包指定的部分包.md](maven/maven打包指定的部分包.md)
 * [Redis操作配置](redis/README.md)
-
 
