@@ -20,4 +20,6 @@ syntax on
 y
 #粘贴
 p
+#window 复制
+"+p/:+y
 ```
