@@ -10,4 +10,6 @@ dff
 v/V
 #撤销/重做
 u/CTRL+r
+#翻页
+CTRL+f/CTRL
 ```
