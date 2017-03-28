@@ -5,4 +5,7 @@ set nu
 set encoding=utf8/gbk
 #删除到字符其中最后一个字符表示字符
 dff
+#可视模式
+v/V
+
 ```
