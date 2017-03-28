@@ -12,4 +12,6 @@ v/V
 u/CTRL+r
 #翻页
 CTRL+f/CTRL+b
+#删除一个单词
+dw/daw b
 ```
