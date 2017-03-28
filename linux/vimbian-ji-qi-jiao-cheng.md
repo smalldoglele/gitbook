@@ -20,7 +20,7 @@ syntax on
 y
 #粘贴
 p
-#window 复制
+#window 复制/可配置共享粘贴板
 "+p
 :+y
 ```
