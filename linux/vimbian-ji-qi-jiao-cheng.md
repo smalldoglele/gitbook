@@ -16,4 +16,8 @@ CTRL+f/CTRL+b
 dw/daw b
 #高亮
 syntax on
+#复制
+y
+#粘贴
+p
 ```
