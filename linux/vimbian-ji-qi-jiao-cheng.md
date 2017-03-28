@@ -15,5 +15,5 @@ CTRL+f/CTRL+b
 #删除一个单词
 dw/daw b
 #高亮
-
+syntax on
 ```
