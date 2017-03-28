@@ -7,5 +7,6 @@ set encoding=utf8/gbk
 dff
 #可视模式
 v/V
-
+#撤销/重做
+u/CTRL+r
 ```
