@@ -45,7 +45,7 @@ mongoexport -h 192.168.1.254 -d detect_report_dev -c detectIndex
 # mongoimport -h 地址 -d 数据库名 -c 集合名  文件地址
 mongoimport -h 192.168.1.254 -d detect_report_test -c detectIndex  d:/data.txt
 #以csv第一行为表头导入数据
-mongoimport -v --host 192.168.1.254:27017 -d "dip_test" -c "user" --file D:\dbackup\user.csv --type csv --headerline
+mongoimport h 192.168.1.254 -d "dip_test" -c "user" --file D:\dbackup\user.csv --type csv --headerline
 ```
 
 
