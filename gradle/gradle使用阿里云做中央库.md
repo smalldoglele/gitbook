@@ -1,4 +1,4 @@
-+ 在${USER_HOME}/.gradle创建文件init.gradle,内容如下
++ 在${USER_HOME}/.gradle创建文件init.gradle,内容如下,即可
 
 ```json
 allprojects{
