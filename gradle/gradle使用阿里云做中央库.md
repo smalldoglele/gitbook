@@ -1,5 +1,6 @@
 + 在${USER_HOME}/.gradle创建文件init.gradle,内容如下
-```
+
+```json
 allprojects{
   repositories {
     def REPOSITORY_URL = 'http://maven.aliyun.com/nexus/content/groups/public/'
