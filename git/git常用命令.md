@@ -18,5 +18,6 @@ git status -s
 cat .gitignore
 #查看已暂存和未暂存的修改
 git diff/difftool
+
 ```
 + 撤销操作
