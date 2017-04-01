@@ -109,5 +109,8 @@ git push origin master
 #查看远程仓库分支具体情况
 #git remote show [remote-name]
 git remote show origin
+####
+# 远程仓库的移除与重命名
+git remote rename [old_name] [new_name]
 ```
 > 运行 git pull 通常会从最初克隆的服务器上抓取数据并自动尝试合并到当前所在的分支。
