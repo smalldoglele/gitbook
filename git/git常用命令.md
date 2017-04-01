@@ -26,7 +26,8 @@ git commit -m '注释'
 #跳过使用暂存区域
 git commit -a -m 'added new benchmarks'
 #移除文件
-
+git rm --cached [文件名]
+git rm -f [文件名]
 ```
 
 + 撤销操作
