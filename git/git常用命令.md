@@ -59,5 +59,8 @@ git log --pretty=format:"%h - %an, %ad : %s" --date=iso
 git log --pretty=format:"%h %s" --graph
 #限制输出长度 最近两周内的提交
 git log --since=2.weeks
+# 默认日志条件是or 使用--all-match成为and
+# 找出添加或移除了某一个特定函数的引用的提交
+git log -Sfunction_name
 ```
 + 撤销操作
