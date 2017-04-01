@@ -133,5 +133,6 @@ git tag -l 'v1.8.5*'
 git tag -a v1.4 -m 'my version 1.4'
 #轻量标签
 git tag v1.4-lw
-
+#查看标签
+git show v1.4-lw
 ```
