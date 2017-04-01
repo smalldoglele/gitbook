@@ -137,4 +137,16 @@ git tag v1.4-lw
 git show v1.4-lw
 #后期打标签 对过去的提交打标签
 git tag -a v1.2 9fceb02
+#共享标签
+#创建完标签后你必须显式地推送标签到共享服务器上 
+#git push origin [tagname]
+git push origin v1.5
+#把所有不在远程仓库服务器上的标签全部传送到那里
+git push origin --tags
+#检出标签
+#如果你想要工作目录与仓库中特定的标签版本完全一样
+#在特定的标签上创建一个新分支
+#git checkout -b [branchname] [tagname] 
+git checkout -b version2 v2.0.0
+###当然，如果在这之后又进行了一次提交，version2 分支会因为改动向前移动了，那么 version2 分支就会和 v2.0.0 标签稍微有些不同，这时就应该当心了。
 ```
