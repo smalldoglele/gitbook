@@ -135,4 +135,6 @@ git tag -a v1.4 -m 'my version 1.4'
 git tag v1.4-lw
 #查看标签
 git show v1.4-lw
+#后期打标签 对过去的提交打标签
+git tag -a v1.2 9fceb02
 ```
