@@ -93,7 +93,7 @@ git checkout {xxxx}
 ```
 #复制远程库
 git clone git@github.com:iunionx/devdoc.git devdoc
-#查看
+#查看分支情况
 git remote
 #读写远程仓库使用的 Git 保存的简写与其对应的 URL
 git remote -v
@@ -106,6 +106,7 @@ git fetch pb
 #推送到远程仓库
 #git push [remote-name] [branch-name]
 git push origin master
-
+#查看远程仓库分支具体情况
+git remote show origin
 ```
 > 运行 git pull 通常会从最初克隆的服务器上抓取数据并自动尝试合并到当前所在的分支。
