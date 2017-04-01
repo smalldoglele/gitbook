@@ -41,7 +41,7 @@ git mv file_from file_to
 + 问号（?）只匹配一个任意字符；
 + 字符范围,比如:[0-9],[a-z],[A-Z]
 
-+ 日志
++ 查看提交历史
 
 ```
 #查看提交历史
@@ -66,4 +66,7 @@ git log -Sfunction_name
 git log --pretty="%h - %s" --author=gitster --since="2008-10-01" \
    --before="2008-11-01" --no-merges -- t/
 ```
-+ 撤销操作
++ 撤消操作
+
+```
+```
