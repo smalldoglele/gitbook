@@ -25,8 +25,10 @@ git commit
 git commit -m '注释'
 #跳过使用暂存区域
 git commit -a -m 'added new benchmarks'
-#移除文件
+##移除文件 从暂存区（和工作区）都删除
+#暂存区
 git rm --cached [文件名]
+#从暂存区和工作区
 git rm -f [文件名]
 ```
 
