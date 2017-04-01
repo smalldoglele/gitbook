@@ -32,6 +32,8 @@ git rm --cached [文件名]
 git rm -f [文件名]
 # 支持glob模式
 git rm log/\*.log
+#移动文件
+git mv file_from file_to
 ```
 
 > **glob 模式是指shell所使用的简化了的正则表达式**
@@ -39,5 +41,5 @@ git rm log/\*.log
 + [abc]匹配任何一个列在方括号中的字符（匹配其中一个字符）；
 + 问号（?）只匹配一个任意字符；
 + 字符范围,比如:[0-9],[a-z],[A-Z]
-
+##
 + 撤销操作
