@@ -79,6 +79,11 @@ git checkout -- [文件名]
 #将git仓库重置会上次提交点
 git reset --hard HEAD^ 
 git reset --soft HEAD^ 
+###这里应该看注意
+
+#提交的东西丢失了 怎么找回
+git reflog --oneline 
+git checkout {xxxx}
 ```
 + 虽然在调用时加上 --hard 选项可以令 git reset 成为一个危险的命令（译注：可能导致**工作目录中所有当前进度丢失**），但本例中工作目录内的文件并不会被修改。 
 不加选项地调用 git reset 并不危险 — 它只会修改暂存区域。
