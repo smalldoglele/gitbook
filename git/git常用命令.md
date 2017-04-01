@@ -12,7 +12,7 @@ git clone git@github.com:iunionx/devdoc.git devdoc
 git status
 #跟踪新文件/暂存已修改文件
 git add * . [文件名]
-#状态简览
+#状态简览 shot
 git status -s
 ```
 + 撤销操作
