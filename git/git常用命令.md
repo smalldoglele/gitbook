@@ -38,7 +38,7 @@ git mv file_from file_to
 git log
 #显示内容差异的最近两次提交
 git log -p -2
-#简略的统计信息
+#简略的统计信息 新增/修改文件的个数
 git log --stat
 ```
 
