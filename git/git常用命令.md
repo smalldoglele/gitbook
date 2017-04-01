@@ -42,7 +42,7 @@ git log -p -2
 git log --stat
 #定义日志格式
 git log --pretty=oneline
-
+git log --pretty=format:"%h - %an, %ar : %s"
 ```
 
 > **glob 模式是指shell所使用的简化了的正则表达式**
