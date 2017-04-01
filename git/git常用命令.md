@@ -18,6 +18,8 @@ git status -s
 cat .gitignore
 #查看已暂存和未暂存的修改 --staged 和 --cached 是同义词
 git diff/difftool [--staged]
-
+#提交更新
+git commit 
+git commit -m '注释'
 ```
 + 撤销操作
