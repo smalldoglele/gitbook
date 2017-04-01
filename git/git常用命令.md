@@ -57,6 +57,7 @@ git log --pretty=format:"%h - %an, %ar : %s"
 git log --pretty=format:"%h - %an, %ad : %s" --date=iso
 #字符图案分支
 git log --pretty=format:"%h %s" --graph
-#限制输出长度
+#限制输出长度 最近两周内的提交
+git log --since=2.weeks
 ```
 + 撤销操作
