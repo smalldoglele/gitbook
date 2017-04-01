@@ -71,4 +71,6 @@ git log --pretty="%h - %s" --author=gitster --since="2008-10-01" \
 ```
 # 漏掉了几个文件没有提交[修补提交]
 git commit --amend
+#取消暂存的文件
+
 ```
