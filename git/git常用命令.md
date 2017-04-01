@@ -129,4 +129,9 @@ git remote rm paul
 # 列出标签
 git tag
 git tag -l 'v1.8.5*'
+#创建标签 附注标签
+git tag -a v1.4 -m 'my version 1.4'
+#轻量标签
+git tag v1.4-lw
+
 ```
