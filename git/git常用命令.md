@@ -22,4 +22,6 @@ git diff/difftool [--staged]
 git commit 
 git commit -m '注释'
 ```
+#跳过使用暂存区域
+git commit -a -m 'added new benchmarks'
 + 撤销操作
