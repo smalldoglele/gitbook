@@ -40,6 +40,9 @@ git log
 git log -p -2
 #简略的统计信息 新增/修改文件的个数
 git log --stat
+#定义日志格式
+git log --pretty=oneline
+
 ```
 
 > **glob 模式是指shell所使用的简化了的正则表达式**
