@@ -34,6 +34,11 @@ git rm -f [文件名]
 git rm log/\*.log
 #移动文件
 git mv file_from file_to
+#查看提交历史
+git log
+#显示内容差异的最近两次提交
+git log -p -2
+
 ```
 
 > **glob 模式是指shell所使用的简化了的正则表达式**
