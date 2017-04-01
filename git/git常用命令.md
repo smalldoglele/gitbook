@@ -16,5 +16,6 @@ git add * . [文件名]
 git status -s
 #忽略文件
 cat .gitignore
+
 ```
 + 撤销操作
