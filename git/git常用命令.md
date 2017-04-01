@@ -38,7 +38,8 @@ git mv file_from file_to
 git log
 #显示内容差异的最近两次提交
 git log -p -2
-
+#简略的统计信息
+git log --stat
 ```
 
 > **glob 模式是指shell所使用的简化了的正则表达式**
