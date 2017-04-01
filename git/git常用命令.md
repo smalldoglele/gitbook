@@ -103,6 +103,9 @@ git remote add pb https://github.com/paulboone/ticgit
 #拉取 Paul 的仓库中有但你没有的信息 pb是paul仓库的别名
 #git fetch [remote-name]不合并
 git fetch pb
-#
+#推送到远程仓库
+#git push [remote-name] [branch-name]
+git push origin master
+
 ```
 > 运行 git pull 通常会从最初克隆的服务器上抓取数据并自动尝试合并到当前所在的分支。
