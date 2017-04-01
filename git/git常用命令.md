@@ -107,7 +107,7 @@ git fetch pb
 #git push [remote-name] [branch-name]
 git push origin master
 #查看远程仓库分支具体情况
-#it remote show [remote-name]
+#git remote show [remote-name]
 git remote show origin
 ```
 > 运行 git pull 通常会从最初克隆的服务器上抓取数据并自动尝试合并到当前所在的分支。
