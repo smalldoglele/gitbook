@@ -8,6 +8,8 @@ git clone git@github.com:iunionx/devdoc.git devdoc
 ```
 + 提交操作
 ```
+#检查当前文件状态
 git status
+#
 ```
 + 撤销操作
