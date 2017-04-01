@@ -93,6 +93,8 @@ git checkout {xxxx}
 ```
 #复制远程库
 git clone git@github.com:iunionx/devdoc.git devdoc
-#
+#查看
+git remote
+
 ```
 
