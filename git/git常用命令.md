@@ -75,6 +75,10 @@ git commit --amend
 git reset HEAD [文件名]
 #撤消对文件的修改 [撤销工作区]
 git checkout -- [文件名]
+####撤销已经提交的文件
+
+git reset --hard HEAD^ 
+git reset --soft HEAD^ 
 ```
 + 虽然在调用时加上 --hard 选项可以令 git reset 成为一个危险的命令（译注：可能导致工作目录中所有当前进度丢失！），但本例中工作目录内的文件并不会被修改。 
 不加选项地调用 git reset 并不危险 — 它只会修改暂存区域。
