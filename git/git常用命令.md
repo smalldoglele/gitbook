@@ -62,5 +62,8 @@ git log --since=2.weeks
 # 默认日志条件是or 使用--all-match成为and
 # 找出添加或移除了某一个特定函数的引用的提交
 git log -Sfunction_name
+#2008 年 10 月期间，Junio Hamano 提交的但未合并的测试文件
+git log --pretty="%h - %s" --author=gitster --since="2008-10-01" \
+   --before="2008-11-01" --no-merges -- t/
 ```
 + 撤销操作
