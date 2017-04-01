@@ -150,3 +150,4 @@ git push origin --tags
 git checkout -b version2 v2.0.0
 ###当然，如果在这之后又进行了一次提交，version2 分支会因为改动向前移动了，那么 version2 分支就会和 v2.0.0 标签稍微有些不同，这时就应该当心了。
 ```
++ ### 别名
