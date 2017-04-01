@@ -16,7 +16,7 @@ git add * . [文件名]
 git status -s
 #忽略文件
 cat .gitignore
-#查看已暂存和未暂存的修改
+#查看已暂存和未暂存的修改 --staged 和 --cached 是同义词
 git diff/difftool [--staged]
 
 ```
