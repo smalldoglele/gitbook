@@ -95,6 +95,7 @@ git checkout {xxxx}
 git clone git@github.com:iunionx/devdoc.git devdoc
 #查看
 git remote
-
+#读写远程仓库使用的 Git 保存的简写与其对应的 URL
+git remote -v
 ```
 
