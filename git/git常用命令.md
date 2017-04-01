@@ -30,6 +30,9 @@ git commit -a -m 'added new benchmarks'
 git rm --cached [文件名]
 #从暂存区和工作区
 git rm -f [文件名]
+# glob模式
 ```
-
+>glob模式:
+>
+>
 + 撤销操作
