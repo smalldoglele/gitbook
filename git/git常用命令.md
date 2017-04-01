@@ -43,6 +43,8 @@ git log --stat
 #定义日志格式
 git log --pretty=oneline
 git log --pretty=format:"%h - %an, %ar : %s"
+#日期定义格式
+git log --pretty=format:"%h - %an, %ad : %s" --date=iso
 git log --pretty=format:"%h %s" --graph
 #
 ```
