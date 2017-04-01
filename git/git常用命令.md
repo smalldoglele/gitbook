@@ -97,5 +97,11 @@ git clone git@github.com:iunionx/devdoc.git devdoc
 git remote
 #读写远程仓库使用的 Git 保存的简写与其对应的 URL
 git remote -v
+#添加远程仓库
+#git remote add <shortname> <url> 
+git remote add pb https://github.com/paulboone/ticgit
+#拉取 Paul 的仓库中有但你没有的信息 pb是paul仓库的别名
+git fetch pb
+#
 ```
 
