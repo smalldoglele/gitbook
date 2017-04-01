@@ -30,7 +30,8 @@ git commit -a -m 'added new benchmarks'
 git rm --cached [文件名]
 #从暂存区和工作区
 git rm -f [文件名]
-# glob模式
+# 支持glob模式
+git rm log/\*.log
 ```
 
 > **glob 模式是指shell所使用的简化了的正则表达式**
