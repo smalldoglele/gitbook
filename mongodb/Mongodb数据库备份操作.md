@@ -6,7 +6,8 @@ mongodump -h 192.168.1.254 -d detect_report_test -o d:/dbackup/
 #备份成一个文件 使用--gzip 压缩体积会小一点
 mongodump -h 192.168.1.53  -d edu20160723 --archive=d:/dbackup/edu.20161223.gz --gzip
 ```
-* 数据库备份到一个文件中(官方实例)
+* 数据库备份到一个文件中(官方实例)\
+
 ```
 mongodump --archive=test.20150715.gz --gzip --db test
 ```
@@ -19,6 +20,7 @@ mongorestore -h IP --port 端口 -u 用户名 -p 密码 -d 数据库 (--drop) �
 mongorestore -h 101.200.168.176  -d edu20160723 --archive=d:/dbackup/edu.20161223.gz --gzip
 ```
 * 数据还原用一个文件（官方实例）
+
 ```
 mongorestore --gzip --archive=test.20150715.gz --db test
 ```
