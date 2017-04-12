@@ -65,7 +65,6 @@ git config --global push.default matching
 git config branch.master.rebase true
 ####设置每个分支新建的时候使用变基
 git config --global branch.autosetuprebase always
-
 ```
 
 
