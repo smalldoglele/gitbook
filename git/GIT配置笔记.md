@@ -7,10 +7,11 @@
      > 对比过kdiff3和diffMerge都没有p4merge使用效果好  
      > notepad2是用来写注释的时候，可以使用utf8  
      > p4merge包含在p4vinst64中，仅仅选择p4merge即可  
-     > nodepad2,p4merge要加入到环境变量中
+     > nodepad2,p4merge要加入到环境变量中  
      > **nodepad2,p4merge设置默认使用utf8编码**
 
 2. 下载完成后将，nodepad2,p4merge的目录加入到path中
+
 3. 生成ssh秘钥 ssh-keygen -t rsa 
 4. 将公钥放到服务器上去
 5. 配置git bash 下文件夹/文件名称中文乱码调整
@@ -39,7 +40,7 @@ git config --global gui.encoding utf-8
 #####注释编码设置成utf8 
 git config --global i18n.commitencoding  utf-8
 ###在winow上使用gbk显示注释
-git config --global i18n.logoutputencoding gbk
+##git config --global i18n.logoutputencoding gbk
 #### 解决git status中文文件名乱码
 git config --global core.quotepath false
 #### 提交时候使用的编辑器默认使用UTF8可以避免乱码
