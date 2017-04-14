@@ -13,6 +13,8 @@ mysql -h 110.110.110.110 -u root -p 123
 insert into mysql.user (host,user,password) values('%','walden',PASSWORD('password'));
 #添加并赋权
 grant select on 数据库.* to '用户名'@'登录主机' identified by '密码'
+#如
+grant select on spss_prod.* to 'spssuser'@'%'
 ```
 4.用户权限
 ```
