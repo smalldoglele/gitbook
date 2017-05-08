@@ -33,7 +33,7 @@
     </profile>
 ```
 + 记录公司自己的profile
-```
+```xml
   <activeProfiles>
     <activeProfile>unionx</activeProfile>
   </activeProfiles>
