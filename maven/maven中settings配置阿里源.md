@@ -1,4 +1,5 @@
 + mirrors更换central
+
 ```xml
 	<mirror>
 		<id>alimaven</id>
