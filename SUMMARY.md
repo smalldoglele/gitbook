@@ -33,6 +33,7 @@
 * [MyBatis插件介绍](mybatis/README.md)
   * [插件原理](mybatis/mybatis插件原理.md)
 * [Maven工具介绍](maven/README.md)
+  * [公司配置maven](maven/maven中settings配置阿里源.md)
   * [打包指定的部分包.md](maven/maven打包指定的部分包.md)
 * [Redis操作配置](redis/README.md)
 
