@@ -10,9 +10,10 @@
 | 6   | 720    | 1       |
 | 7   | 931    | 1       |
 
-####答案
+#### 答案
 
 ```sql
+
 select number from wl_flight groupby number
 having group_concat(distinct plan_no order by plan_no separator,'-')='0-1-2'
 ```
