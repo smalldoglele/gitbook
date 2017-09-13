@@ -19,4 +19,10 @@ export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 ```
 source /etc/ profile
 ```
-# 安装jdk8 
+# 安装oracle jdk8 
+```
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+#如果安装了 apt-fast 建议使用
+```
