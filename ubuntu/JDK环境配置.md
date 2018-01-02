@@ -8,6 +8,7 @@ sudo apt-get install oracle-java8-installer
 sudo apt-fast install oracle-java8-installer
 ```
 # 手动配置环境变量
+
 1.备份环境变量配置文件
 ```
 sudo cp /etc/profile /etc/profile.bakup
