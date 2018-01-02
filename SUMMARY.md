@@ -11,6 +11,7 @@
   * [更换阿里源.md](ubuntu/ubuntu16.04安装手记更换阿里源.md)
   * [ubuntu安装redis.md](ubuntu/ubuntu安装redis.md)
   * [ubuntu查看硬件信息.md](ubuntu/ubuntu查看硬件信息.md)
+  * [docker安装mysql5.6](ubuntu/dockeran-zhuang-mysql5-6.md)
 * [MongoDB资料](mongodb/README.md)
   * [数据库安装](mongodb/MongoDB数据库安装.md)
   * [入门教程](mongodb/MongoDB入门教程.md)
