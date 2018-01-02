@@ -34,7 +34,7 @@ deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse
 
 ---
 
-3.安装apt-fast
+# 安装apt-fast
 
 ```
 sudo add-apt-repository ppa:saiarcot895/myppa
