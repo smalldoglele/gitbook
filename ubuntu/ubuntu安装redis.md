@@ -15,8 +15,7 @@ $ make
 ```
 + 启动/关闭/刷新
 ```
-sudo service redis-server start/stop/reload
-#或者
+#所有配置可以在redis_6379 脚本中查看
 /etc/init.d/redis_6379 restart/start/stop 
 ```
 
