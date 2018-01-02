@@ -40,7 +40,7 @@ deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse
 sudo add-apt-repository ppa:saiarcot895/myppa
 sudo apt-get update
 sudo apt-get -y install apt-fast
-#一定要略过确认框
+#一定要略过确认框 最后一步选择 **是**
 ```
 
 
