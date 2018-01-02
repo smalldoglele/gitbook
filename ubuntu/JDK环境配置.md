@@ -25,4 +25,5 @@ sudo add-apt-repository ppa:webupd8team/java
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
 #如果安装了 apt-fast 建议使用
+sudo apt-fast install oracle-java8-installer
 ```

@@ -1,4 +1,4 @@
-#ubuntu16.04更换阿里源
+# ubuntu16.04更换阿里源
 
 1.备份源列表
 
@@ -8,6 +8,7 @@ sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
 #编辑源列表
 sudo vi /etc/apt/sources.list
 ```
+
 2.将sources.list替换成如下内容（只限于16.04）
 
 ```
@@ -30,12 +31,17 @@ deb-src http://mirrors.aliyun.com/ubuntu/ xenial-security main restricted multiv
 deb http://mirrors.aliyun.com/ubuntu/ xenial-security universe
 deb http://mirrors.aliyun.com/ubuntu/ xenial-security multiverse
 ```
-----
+
+---
+
 3.安装apt-fast
+
 ```
 sudo add-apt-repository ppa:saiarcot895/myppa
 sudo apt-get update
 sudo apt-get -y install apt-fast
 #一定要略过确认框
 ```
+
+
 
