@@ -1,4 +1,13 @@
 #ubuntu配置java环境变量
+# 安装oracle jdk8 
+```
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+#如果安装了 apt-fast 建议使用
+sudo apt-fast install oracle-java8-installer
+```
+# 手动安装
 1.备份环境变量配置文件
 ```
 sudo cp /etc/profile /etc/profile.bakup
@@ -18,12 +27,4 @@ export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 4.加载环境变量
 ```
 source /etc/ profile
-```
-# 安装oracle jdk8 
-```
-sudo add-apt-repository ppa:webupd8team/java
-sudo apt-get update
-sudo apt-get install oracle-java8-installer
-#如果安装了 apt-fast 建议使用
-sudo apt-fast install oracle-java8-installer
 ```
