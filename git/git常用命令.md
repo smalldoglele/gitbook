@@ -75,6 +75,9 @@ git commit --amend
 git reset HEAD [文件名]
 #撤消对文件的修改 [撤销工作区]
 git checkout -- [文件名]
+#如果有大批量的文件需要撤回，git是没有对应的命令的；可以add之后保存到进度里面
+git add .
+git stash save todropfile
 ####撤销已经提交的文件
 #将git仓库重置会上次提交点
 git reset --hard HEAD^ 
