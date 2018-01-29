@@ -38,15 +38,15 @@ git config --global alias.mt mergetool
 ####开启颜色显示
 git config --global color.ui true
 ####gitk显示不乱码
-git config --global gui.encoding utf-8
+# git config --global gui.encoding utf-8
 #####注释编码设置成utf8 
-git config --global i18n.commitencoding  utf-8
+# git config --global i18n.commitencoding  utf-8
 ###在winow上使用gbk显示注释
 ##git config --global i18n.logoutputencoding gbk
 #### 解决git status中文文件名乱码
-git config --global core.quotepath false
+# git config --global core.quotepath false
 #### 提交时候使用的编辑器默认使用UTF8可以避免乱码
-git config --global core.editor notepad2
+# git config --global core.editor notepad2
 #####设置默认推送的
 git branch --set-upstream-to=origin/master
 ####配置对比工具
@@ -62,7 +62,7 @@ git config --global difftool.prompt false
 ####打开mergetool的时候 不在询问是否打开
 git config --global mergetool.prompt false
 ####设置文件默认推送的分支
-git config --global push.default matching
+# git config --global push.default matching
 ####给每个分支设置变基 git config branch.<branchName>.rebase true
 ## 如主分支设置变基
 git config branch.master.rebase true
