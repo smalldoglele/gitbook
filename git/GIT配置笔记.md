@@ -65,7 +65,7 @@ git config --global mergetool.prompt false
 # git config --global push.default matching
 ####给每个分支设置变基 git config branch.<branchName>.rebase true
 ## 如主分支设置变基
-git config branch.master.rebase true
+# git config branch.master.rebase true
 ####设置每个分支新建的时候使用变基
 git config --global branch.autosetuprebase always
 ```
