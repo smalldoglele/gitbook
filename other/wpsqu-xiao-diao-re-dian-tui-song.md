@@ -1,0 +1,1 @@
+![](/assets/wps_cancel_news.png)

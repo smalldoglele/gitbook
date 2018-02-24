@@ -39,7 +39,5 @@
   * [打包指定的部分包.md](maven/maven打包指定的部分包.md)
 * [Redis操作配置](redis/README.md)
 * [其他](other/README.md)
-
-
-
+  * [WPS取消掉热点推送](other/wpsqu-xiao-diao-re-dian-tui-song.md)
 
