@@ -38,4 +38,8 @@
   * [公司配置maven](maven/maven中settings配置阿里源.md)
   * [打包指定的部分包.md](maven/maven打包指定的部分包.md)
 * [Redis操作配置](redis/README.md)
+* [其他](other/README.md)
+
+
+
 
