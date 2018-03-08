@@ -9,4 +9,7 @@ git checkout -b mydevelop develop
 3.合并本地分支到develop
 ```
 git checkout develop
+git merge mydevelop
+#或者
+git rebase mydevelop 
 ```
