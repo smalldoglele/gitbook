@@ -4,6 +4,7 @@
 * [Git教程](git/README.md)
   * [GIT配置笔记](git/GIT配置笔记.md)
   * [GIT入门教程](git/git常用命令.md)
+  * [GIT使用笔记](git/gitshi-yong-bi-8bb0-md.md)
 * [Nginx配置](nginx/README.md)
   * [负载均衡配置实例](nginx/nginx负载均衡配置实例.md)
 * [Ubuntu配置](ubuntu/README.md)
