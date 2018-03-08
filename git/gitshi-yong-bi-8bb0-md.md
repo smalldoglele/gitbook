@@ -13,7 +13,8 @@ git merge mydevelop
 #或者 远程分支不要rebase
 git rebase mydevelop 
 ```
-> merge和rebase的区别 快推和非快推的区别
+> merge和rebase的区别 
+> 快推和非快推的区别
 
 4.删除本地分支
 ```
