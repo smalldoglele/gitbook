@@ -10,6 +10,13 @@ git checkout -b mydevelop develop
 ```
 git checkout develop
 git merge mydevelop
-#或者
+#或者 远程分支不要rebase
 git rebase mydevelop 
 ```
+> merge和rebase的区别 快推和非快推的区别
+4.删除本地分支
+```
+#安全 如果这份分支没有合并到其他分支上 不能删除
+git branch -d mydevelop 
+#强制 确认这个分支不合并到其他分支上要丢弃
+git branch -D mydevelop
