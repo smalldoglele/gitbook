@@ -20,3 +20,4 @@ git rebase mydevelop
 git branch -d mydevelop 
 #强制 确认这个分支不合并到其他分支上要丢弃
 git branch -D mydevelop
+```
