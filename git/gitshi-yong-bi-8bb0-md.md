@@ -14,6 +14,7 @@ git merge mydevelop
 git rebase mydevelop 
 ```
 > merge和rebase的区别 快推和非快推的区别
+
 4.删除本地分支
 ```
 #安全 如果这份分支没有合并到其他分支上 不能删除
