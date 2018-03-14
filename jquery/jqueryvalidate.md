@@ -14,8 +14,8 @@ $('#formId').validate();
     - button 标签 默认类型是submit
     - input type="button"
 > 因为button 有三种类型：submit button reset，且默认类型是submit
-> 所以这里会有大坑，开发过程中建议用<input type='button' value="提交"/>
-> 来代替<button>提交</button>
+> 所以这里会有大坑，开发过程中建议用`<input type='button' value="提交"/>`
+> 来代替`<button>提交</button>`
 
 2.手动验证
 ```
