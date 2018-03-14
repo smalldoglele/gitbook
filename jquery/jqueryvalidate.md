@@ -11,8 +11,11 @@ $('#formId').validate();
 #### 触发验证
 1.submit表单触发
     - input type="submit"
-    - button 按钮有三种类型分别是 submit，button ，reset默认类型是submit 所以不建议使用button标签此处有坑  - input type="button"
-    
+    - button 标签 默认类型是submit
+    - input type="button"
+> 因为button 有三种类型：submit button reset，且默认类型是submit
+> 所以这里会有大坑，开发过程中建议用<input type='button' value="提交">
+
 2.手动验证
 ```
 var validator=$('#formId').validate();
