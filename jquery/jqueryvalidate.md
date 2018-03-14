@@ -12,6 +12,7 @@ $('#formId').validate();
 
 #### 触发验证
 1.submit表单触发
+
     - input type="submit"
     - button 标签 默认类型是submit
     - input type="button"
