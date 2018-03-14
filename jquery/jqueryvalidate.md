@@ -3,3 +3,9 @@
 [jQuery Validation Plugin  官方仓库地址](https://github.com/jquery-validation/jquery-validation)
 [jQuery Validation Plugin  官网地址](https://jqueryvalidation.org/)
 
+##### 使用方法
+```
+$('#formId').validate();
+```
+
+
