@@ -25,6 +25,7 @@ git branch -d mydevelop
 git branch -D mydevelop
 ```
 ### 远程分支操作
+
 1.创建从master分支签出本地分支my-remote-br
 ```
 git co -b my-remote-br master
@@ -34,22 +35,26 @@ git co -b my-remote-br master
 git push origin my-remote-br
 
 ```
-3.设置分支跟踪
- > 第2步推送成功后，再次推送git命令提示
+3.设置本地分支跟踪远程分支，
+ > **该操作的目的是为了使用pull/push的时候，不使用额外的参数，就可以将
+ > 本地推送到远程同名分支上**
+ > 第2步推送成功后，再次推送,git会有如下提示
+ > $ git push
+ > fatal: The current branch my-remote-br has no upstream branch.
+ > To push the current branch and set the remote as upstream, use
+
+```
+    git push --set-upstream origin my-remote-br
+```
+**执行命令上面的命令，将推送分支跟踪到远程分支**
+
+4.验证跟踪是否成功,如下命令表示设置成功
 ```
 $ git push
-fatal: The current branch my-remote-br has no upstream branch.
-To push the current branch and set the remote as upstream, use
-
-    git push --set-upstream origin my-remote-br
-
+Everything up-to-date
+$ git pull
+Already up to date.
 ```
-执行命令
-
-```
-   git push --set-upstream origin my-remote-br
-```
-
 
 
 
