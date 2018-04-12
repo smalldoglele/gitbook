@@ -65,7 +65,7 @@ Already up to date.
 #回退到上一个版本
 git reset --hard HEAD^
 #回退到某个版本
-git rest --hard id
+git reset --hard id
 ```
 
 
