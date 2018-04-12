@@ -59,6 +59,14 @@ Already up to date.
 1.git br -r 看不到别人新建的远程分支
 
 解决方案：使用git fetch命令同步远程仓库header到本地仓库后，可以看到远程分支；tab键自动提示也可是使用了
+2.git 版本回退信息
+解决方案:
+```
+#回退到上一个版本
+git reset --hard HEAD^
+#回退到某个版本
+git rest --hard id
+```
 
 
 
