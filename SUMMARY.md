@@ -42,5 +42,5 @@
 * [jquery](jquery/README.md)
   * [jQuery Validation Plugin](jquery/jqueryvalidate.md)
 * [其他](other/README.md)
-  * [WPS取消掉热点推送](other/wpsqu-xiao-diao-re-dian-tui-song.md)
+  * [程序备份发布shell脚本](other/cheng-xu-bei-fen-fa-bu-shell-jiao-ben.md)
 
