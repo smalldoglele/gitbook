@@ -1,3 +1,4 @@
+关闭tomcat备份系统后，将jar包从jekens的指定目录中，复制到开发环境中
 ```shell
 #!/bin/bash
 export JAVA_HOME=/opt/jdk1.8.0_101
