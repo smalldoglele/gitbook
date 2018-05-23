@@ -26,6 +26,8 @@
   * [Mysql常用语句纪要](mysql/mysql常用语句纪要.md)
   * [MySQL备份还原操作](mysql/mysql备份还原操作.md)
   * [group\_concat使用方法和实例.md](mysql/groupconcat-shi-yong-fang-fa-he-shi-4f8b-md.md)
+* [PostgreSQL数据库配置](postgres/README.md)
+  * [postgres10安装教程](postgres/postgres10an-zhuang-jiao-cheng.md)
 * [Linux服务器配置](linux/README.md)
   * [查找文件或者内容](linux/查找文件或者内容.md)
   * [Vim编辑器教程](linux/linux/vim编辑器教程.md)
