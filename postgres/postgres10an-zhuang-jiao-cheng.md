@@ -22,3 +22,17 @@ sudo apt-get install postgresql-10
 /var/lib/postgresql/10/main
 /var/log/postgresql/postgresql-10-main.log
 ```
++ 给linux的postgres用户设置密码
+```
+sudo passwd postgres
+## 输入密码两次
+#切换到postgres用户
+su postgres 
+# 执行
+psql
+```
++ 给数据库的postgres用户设置密码
+```
+postgres=# alter user postgres with password 'your_password';
+ALTER ROLE
+```
