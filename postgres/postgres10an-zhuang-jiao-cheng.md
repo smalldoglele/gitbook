@@ -17,3 +17,8 @@ sudo apt-get update
 ```
 sudo apt-get install postgresql-10
 ```
++ 数据库数据和日志文件路径
+```
+/var/lib/postgresql/10/main
+/var/log/postgresql/postgresql-10-main.log
+```
