@@ -37,6 +37,20 @@ postgres=# alter user postgres with password 'your_password';
 ALTER ROLE
 ```
 + ### PostgreSQL允许远程访问设置方法
-```
 
+1.修改pg_hba.conf文件，配置用户的访问权限（#开头的行是注释内容）：
 ```
+# TYPE DATABASE  USER    CIDR-ADDRESS     METHOD
+# "local" is for Unix domain socket connections only
+local all    all               trust
+# IPv4 local connections:
+host  all    all    127.0.0.1/32     trust
+host  all    all    192.168.1.0/24    md5
+# IPv6 local connections:
+host  all    all    ::1/128       trust
+```
+其中，第7条是新添加的内容，表示允许网段192.168.1.0上的所有主机使用所有合法的数据库用户名访问数据库，并提供加密的密码验证。
+
+其中，数字24是子网掩码，表示允许192.168.1.0--192.168.1.255的计算机访问
+2.修改postgresql.conf文件，将数据库服务器的监听模式修改为监听所有主机发出的连接请求
+
