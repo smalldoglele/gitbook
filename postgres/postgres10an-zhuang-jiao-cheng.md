@@ -36,3 +36,7 @@ psql
 postgres=# alter user postgres with password 'your_password';
 ALTER ROLE
 ```
++数据库创建用户和授权
+```
+
+```
