@@ -2,7 +2,7 @@
 ```
 alter user postgres with password 'your_password';
 ```
-+ 创建数据库用户 db_user_name
++ 创建数据库用户db_user_name
 ```
 create user db_user_name with password 'db_user_password';
 ```
