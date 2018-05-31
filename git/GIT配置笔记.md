@@ -54,7 +54,7 @@ git config --global diff.tool p4merge
 git config --global difftool.p4merge.cmd 'p4merge $LOCAL $REMOTE'
 ####配置合并工具
 git config --global merge.tool p4merge
-git config --global mergetool.p4merge.cmd 'p4merge $BASE $LOCAL $REMOTE $MERGED'
+git config --global mergetool.p4merge.cmd 'p4merge $LOCAL $BASE $REMOTE $MERGED'
 ####git 不在生成*.orig
 git config --global mergetool.keepBackup false
 ####打开difftool的时候问是否打开对比工具
