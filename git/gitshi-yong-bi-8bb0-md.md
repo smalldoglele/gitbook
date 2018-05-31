@@ -67,6 +67,12 @@ git reset --hard HEAD^
 #回退到某个版本
 git reset --hard id
 ```
+### release 分支合并步骤和规范
+1. 通知大家将本地release --(push)--> 远程release，本地develop --(push)--> 远程develop;本次需要发到测试的内容必须提交；其他内容自己酌情提交；
+2. 远程release --(pull)--> 本地release，远程develop --(pull)-->本地develop;
+3. **先**本地release --(merge)--本地develop;
+4. **后**本地develop --(merge)--本地release;
+5. 将本地release --(push)--> 远程release，本地develop --(push)--> 远程develop;
 
 
 
