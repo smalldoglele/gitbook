@@ -15,7 +15,6 @@
 3. 生成ssh秘钥 ssh-keygen -t rsa
 
 4. 将公钥放到服务器上去
-
 5. 配置git bash 下文件夹/文件名称中文乱码调整
 
 ```
@@ -38,15 +37,15 @@ git config --global alias.mt mergetool
 ####开启颜色显示
 git config --global color.ui true
 ####gitk显示不乱码
-# git config --global gui.encoding utf-8
+git config --global gui.encoding utf-8
 #####注释编码设置成utf8 
-# git config --global i18n.commitencoding  utf-8
+git config --global i18n.commitencoding  utf-8
 ###在winow上使用gbk显示注释
 ##git config --global i18n.logoutputencoding gbk
 #### 解决git status中文文件名乱码
-# git config --global core.quotepath false
+git config --global core.quotepath false
 #### 提交时候使用的编辑器默认使用UTF8可以避免乱码
-# git config --global core.editor notepad2
+git config --global core.editor notepad2
 #####设置默认推送的
 git branch --set-upstream-to=origin/master
 ####配置对比工具
@@ -54,7 +53,7 @@ git config --global diff.tool p4merge
 git config --global difftool.p4merge.cmd 'p4merge $LOCAL $REMOTE'
 ####配置合并工具
 git config --global merge.tool p4merge
-git config --global mergetool.p4merge.cmd 'p4merge $LOCAL $BASE $REMOTE $MERGED'
+git config --global mergetool.p4merge.cmd 'p4merge $BASE $LOCAL $REMOTE $MERGED'
 ####git 不在生成*.orig
 git config --global mergetool.keepBackup false
 ####打开difftool的时候问是否打开对比工具
@@ -62,10 +61,10 @@ git config --global difftool.prompt false
 ####打开mergetool的时候 不在询问是否打开
 git config --global mergetool.prompt false
 ####设置文件默认推送的分支
-# git config --global push.default matching
+git config --global push.default matching
 ####给每个分支设置变基 git config branch.<branchName>.rebase true
 ## 如主分支设置变基
-# git config branch.master.rebase true
+git config branch.master.rebase true
 ####设置每个分支新建的时候使用变基
 git config --global branch.autosetuprebase always
 ```
