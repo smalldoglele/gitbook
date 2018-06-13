@@ -1,11 +1,11 @@
 # Summary
 
 * [前言](README.md)
+* [Nginx配置](nginx/README.md)
+  * [负载均衡配置实例](nginx/nginx负载均衡配置实例.md)
 * [Git教程](git/README.md)
   * [GIT配置笔记](git/GIT配置笔记.md)
   * [GIT入门教程](git/git常用命令.md)
-* [Nginx配置](nginx/README.md)
-  * [负载均衡配置实例](nginx/nginx负载均衡配置实例.md)
 * [Ubuntu配置](ubuntu/README.md)
   * [JDK环境配置.md](ubuntu/JDK环境配置.md)
   * [更换阿里源.md](ubuntu/ubuntu16.04安装手记更换阿里源.md)
