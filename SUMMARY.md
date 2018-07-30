@@ -19,6 +19,7 @@
   * [字符串Like查询](mongodb/MongoDB字符串Like查询.md)
   * [数据库备份操作](mongodb/Mongodb数据库备份操作.md)
   * [数据库设置用户名和密码](mongodb/MongoDB数据库设置用户名和密码.md)
+  * 语句备忘录
 * [Mysql数据库配置](mysql/README.md)
   * [Windows下安装MySQL5.7](mysql/Windows下安装MySQL5.7.md)
   * [MySQL用户管理](mysql/MySQL用户管理.md)
