@@ -49,4 +49,5 @@
   * [程序备份发布shell脚本](other/cheng-xu-bei-fen-fa-bu-shell-jiao-ben.md)
   * [列编辑模式.md](lie-bian-ji-mo-5f0f-md.md)
   * [20条数据库设计最佳实践](other/20tiao-shu-ju-ku-she-ji-zui-jia-shi-jian.md)
+  * [shadowsocks配置教程](other/shadowsockspei-zhi-jiao-cheng.md)
 
