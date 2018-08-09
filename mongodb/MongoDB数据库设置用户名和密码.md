@@ -26,6 +26,15 @@ db.createUser({user:'your_user_name',pwd:'your_new_user_password',roles:[{role:'
 db.changeUserPassword("your_user_name","your_new_user_password");
 #其他创建数据库管理员
 db.createUser({user:'your_user_name',pwd:'your_user_password',roles:[{role:"dbAdmin",db:'your_db'}]});
+#创建所有用户的查看用户
+db.auth("sysadmin","abc123");
+db.createUser(
+  {
+    user: "unionx",
+    pwd: "unionx!@#",
+    roles: [ "readWriteAnyDatabase" ]
+  }
+);
 ```
 3.开发环境设置 spring-mongo.xml文件配置
 ```xml
