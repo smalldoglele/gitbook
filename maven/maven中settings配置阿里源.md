@@ -22,7 +22,7 @@
             <repository>
                 <id>unionxMvnRepo</id>
                 <name>unionx maven Repository</name>
-                <url>http://124.205.102.6:8081/nexus/content/groups/public</url>
+                <url>http://maven.yilingboshi.com/repository/maven-public</url>
                 <releases>
                     <enabled>true</enabled>
                 </releases>
