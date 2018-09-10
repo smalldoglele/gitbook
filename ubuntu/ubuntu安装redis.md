@@ -19,4 +19,9 @@ $ make
 /etc/init.d/redis_6379 restart/start/stop 
 ```
 
++ 如果安装的时候找不到头文件 可以使用下面的命令安装依赖的包
+```
+sudo apt-get install  build-essential
+```
+
 
