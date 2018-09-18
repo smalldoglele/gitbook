@@ -1,14 +1,13 @@
 1. 所需软件
 
-   * Git [官方下载]
-   * p4merge 官方下载 p4vinst64.exe p4merge
-
-     > 对比过kdiff3和diffMerge都没有p4merge使用效果好  
-     > p4merge包含在p4vinst64中，仅仅选择p4merge即可  
-     > p4merge要加入到环境变量中  
-     > **p4merge设置默认使用utf8编码**
-
+   * Git Bash [官方下载]
+   * p4merge 免费好用的文件合并工具
+    > p4merge 是另外一个商用的版本管理工具perforce的文件对比和合并工具；
+    > p4merge 是免费的，但是也是包含在p4工具集合里面的，所以下载官方文件的安装包名称为p4vinst64.exe
+    > 安装的时候,第二步骤是选择安装软件的界面，只需要选择p4merge这个软件即可，其他的都不需要选
 2. 下载完成后将p4merge的目录加入到path中
+　　
+    > 主要是为了可以在命令行直接使用p4merge启动软件，方便下面的git config  配置合并工具
 
 3. 生成ssh秘钥 ssh-keygen -t rsa
 
