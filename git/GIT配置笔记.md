@@ -55,10 +55,6 @@ git config --global mergetool.keepBackup false
 git config --global difftool.prompt false
 ####打开mergetool的时候 不在询问是否打开
 git config --global mergetool.prompt false
-####设置文件默认推送的分支
-#git config --global push.default matching
-####设置每个分支新建的时候使用变基
-#git config --global branch.autosetuprebase always
 ```
 2.项目配置
 ```
@@ -66,6 +62,13 @@ git config --global mergetool.prompt false
 git branch --set-upstream-to=origin/master
 ####给分支设置变基 git config branch.<branchName>.rebase true 如master
 git config branch.master.rebase true
+```
+3.其他设置
+```
+####设置文件默认推送的分支
+#git config --global push.default matching
+####设置每个分支新建的时候使用变基
+#git config --global branch.autosetuprebase always
 ```
 
 
