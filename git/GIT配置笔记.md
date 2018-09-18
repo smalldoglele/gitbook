@@ -65,10 +65,10 @@ git config branch.master.rebase true
 ```
 3.其他设置
 ```
-####设置文件默认推送的分支
-#git config --global push.default matching
+####设置默认推送的当前分支
+git config --global push.default simple
 ####设置每个分支新建的时候使用变基
-#git config --global branch.autosetuprebase always
+git config --global branch.autosetuprebase always
 ```
 
 
