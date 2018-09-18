@@ -20,7 +20,7 @@
 alias ls='ls --show-control-chars --color=auto'
 ```
 
-1. 快速配置
+1. 快速全局配置
 
 ```
 ###配置用户名和邮箱
@@ -43,8 +43,6 @@ git config --global i18n.commitencoding  utf-8
 git config --global i18n.logoutputencoding gbk
 #### 解决git status中文文件名乱码
 git config --global core.quotepath false
-#####设置默认推送的
-git branch --set-upstream-to=origin/master
 ####配置对比工具
 git config --global diff.tool p4merge
 git config --global difftool.p4merge.cmd 'p4merge $LOCAL $REMOTE'
@@ -58,13 +56,16 @@ git config --global difftool.prompt false
 ####打开mergetool的时候 不在询问是否打开
 git config --global mergetool.prompt false
 ####设置文件默认推送的分支
-git config --global push.default matching
-####给每个分支设置变基 git config branch.<branchName>.rebase true
-## 如主分支设置变基
-git config branch.master.rebase true
+#git config --global push.default matching
 ####设置每个分支新建的时候使用变基
 #git config --global branch.autosetuprebase always
 ```
-
+2.项目配置
+```
+#####设置默认推送的
+git branch --set-upstream-to=origin/master
+####给分支设置变基 git config branch.<branchName>.rebase true 如ｍａｓｔｅｒ
+git config branch.master.rebase true
+```
 
 
