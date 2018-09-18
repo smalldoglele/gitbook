@@ -64,7 +64,7 @@ git config --global mergetool.prompt false
 ```
 #####设置默认推送的
 git branch --set-upstream-to=origin/master
-####给分支设置变基 git config branch.<branchName>.rebase true 如ｍａｓｔｅｒ
+####给分支设置变基 git config branch.<branchName>.rebase true 如master
 git config branch.master.rebase true
 ```
 
