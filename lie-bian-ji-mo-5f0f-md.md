@@ -17,4 +17,5 @@
  + 本机上使用时需先同时按下Alt+Shift+Insert，切换到列编辑模式，再按Shift和上下方向键，就可以进行列编辑了。列编辑后再Alt+Shift+Insert，退出列编辑模式。
  + 同上 鼠标右键 column selection mode 可以查看列编辑快捷键
  
-### vscode 
+### Visual Studio Code
++ 
