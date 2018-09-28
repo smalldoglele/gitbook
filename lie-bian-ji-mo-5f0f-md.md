@@ -18,4 +18,6 @@
  + 同上 鼠标右键 column selection mode 可以查看列编辑快捷键
  
 ### Visual Studio Code
++ 全部选择之后，按快捷键shift+alt+i，分散编辑点到各行
++ Insert Numbers 可以在列编辑模式下插入有序的行号，还可以自动不全0
 + 
