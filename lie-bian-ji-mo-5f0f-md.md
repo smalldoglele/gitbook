@@ -20,4 +20,5 @@
 ### Visual Studio Code
 + 全部选择之后，按快捷键shift+alt+i，分散编辑点到各行
 + Insert Numbers 可以在列编辑模式下插入有序的行号，还可以自动不全0
++ 转换成大写 自己定义快捷键Super+alt+u，转换成小写，自定义快捷键Super+alt+u;
 + 
