@@ -45,6 +45,8 @@
 * [Redis操作配置](redis/README.md)
 * [jquery](jquery/README.md)
   * [jQuery Validation Plugin](jquery/jqueryvalidate.md)
+* [前端开发](前端开发/README.md)
+  * [vue环境学习](前端开发/vue环境学习.md)
 * [其他](other/README.md)
   * [程序备份发布shell脚本](other/cheng-xu-bei-fen-fa-bu-shell-jiao-ben.md)
   * [编辑器列编辑模式.md](lie-bian-ji-mo-5f0f-md.md)
