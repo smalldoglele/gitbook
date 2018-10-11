@@ -54,4 +54,5 @@
   * [20条数据库设计最佳实践](other/20tiao-shu-ju-ku-she-ji-zui-jia-shi-jian.md)
   * [shadowsocks配置教程](other/shadowsockspei-zhi-jiao-cheng.md)
   * 软件的官网地址
+  * [数据库规范](other/shu-ju-ku-gui-fan.md)
 
