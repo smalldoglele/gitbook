@@ -45,6 +45,7 @@
 * [Redis操作配置](redis/README.md)
 * [jquery](jquery/README.md)
   * [jQuery Validation Plugin](jquery/jqueryvalidate.md)
+  * [easy的combobox必须匹配](jquery/easyde-combobox-bi-xu-pi-pei.md)
 * [前端开发](前端开发/README.md)
   * [vue环境学习](前端开发/vue环境学习.md)
 * [其他](other/README.md)
