@@ -19,3 +19,35 @@
 3.通用表设计
 + 人员 user user_member user_store 
 + 机构 org org_supplier org_customer 
+
+
+
+## Maven 多模块版本规范 待整理
+
+1.同一个项目中所有的模块保持版本一致
+2.子模块统一继承父亲模块中的版本号
+3.统一在顶层的pom中`<dependencyManagement/>`中定义所有子模块的依赖版本号,子模块中添加依赖时不要添加版本号
+4.开发测试阶段使用`SNAPSHOT`
+5.生产环境使用`RELEASE`
+6.新版本迭代只需要修改顶层的版本号
+
+### 修改版本号命令
+使用插件
+```
+<dependency>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>versions-maven-plugin</artifactId>
+    <version>2.5</version>
+</dependency>
+```
+##### 1 设置新的版本号
+
+mvn versions:set -DnewVersion=1.1.3
+
+##### 2 当新版本号设置不正确时可以撤销新版本号的设置
+
+mvn versions:revert
+
+##### 3 确认新版本号无误后提交新版本号的设置
+
+mvn versions:commit
