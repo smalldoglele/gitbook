@@ -56,4 +56,5 @@
   * [shadowsocks配置教程](other/shadowsockspei-zhi-jiao-cheng.md)
   * 软件的官网地址
   * [数据库规范](other/shu-ju-ku-gui-fan.md)
+  * [jdk 5新增线程类](other/jdk-5xin-zeng-xian-cheng-lei.md)
 
