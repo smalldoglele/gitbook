@@ -14,4 +14,6 @@ sudo docker run --name mysql56 -p 3306:3306 -e MYSQL_ROOT_PASSWORD=unionx123 -d 
 docker run --name mysql81 -p 3381:3306 -e MYSQL_ROOT_PASSWORD=walden123 -d mysql 
 docker run --name mysql82 -p 3382:3306 -e MYSQL_ROOT_PASSWORD=walden123 -d mysql 
 docker run --name mysql83 -p 3383:3306 -e MYSQL_ROOT_PASSWORD=walden123 -d mysql 
+### mysql 5.7 安装
+docker run --name mysql57 -p 3357:3306 -e MYSQL_ROOT_PASSWORD=walden123 -d mysql:5
 ```
