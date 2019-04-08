@@ -7,5 +7,7 @@ cat /proc/cpuinfo
 df -hl
 #发行版本
 cat /etc/issue
+#查看所有版本信息
+lsb_release a
 ```
 
