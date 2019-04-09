@@ -74,6 +74,16 @@ git reset --hard id
 4. **后**本地develop --(merge)--本地release;
 5. 将本地release --(push)--> 远程release，本地develop --(push)--> 远程develop;
 
+#### 拉取远程分支并创建本地分支
+1.使用该方式会在本地新建分支x，并自动切换到该本地分支x。
+采用此种方法建立的本地分支会和远程分支建立映射关系。
+```
+git checkout -b local_brname origin/remote_brname
+```
+2.用该方式会在本地新建分支x不会自动切换到该本地分支x，需要手动checkout。采用此种方法建立的本地分支不会和远程分支建立映射关系。
+```
+git fetch origin remote_brname:local_brname
+```
 
 
 
