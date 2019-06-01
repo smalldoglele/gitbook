@@ -84,6 +84,25 @@ git checkout -b local_brname origin/remote_brname
 ```
 git fetch origin remote_brname:local_brname
 ```
+#### git 基本提交流程
+````
+#查看文件状态
+git st -s
+# 1 修改过得文件添加到索引区
+git add .
+# 2 提交文件到版本库 需要写备注
+git ci 
+# 3 拉取远程仓库地址
+git pull 
+# 4 如果出现冲突 会显示 (xxx|MERGEING) 打到合并工具
+git mt
+# 5 合并完成 提交文件 使用默认备注
+git ci 
+# 6 如果合并文件有问题 终端当前提交 从3处开始继续
+git merge --abort 
+# 接5 推送本地仓库到远程
+git push  
+````
 
 
 
