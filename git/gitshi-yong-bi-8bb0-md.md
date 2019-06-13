@@ -46,6 +46,11 @@ git push origin my-remote-br
 ```
     git push --set-upstream origin my-remote-br
 ```
+4.删除远程分支
+```
+git push origin --delete branch_name
+git br -d branch_name
+```
 **执行命令上面的命令，将推送分支跟踪到远程分支**
 
 4.验证跟踪是否成功,如下命令表示设置成功
