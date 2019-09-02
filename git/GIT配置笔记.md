@@ -35,14 +35,14 @@ git config --global alias.dt difftool
 git config --global alias.mt mergetool
 ####开启颜色显示
 git config --global color.ui true
+#### 解决git status中文文件名乱码
+git config --global core.quotepath false
 ####　gitk显示不乱码
 git config --global gui.encoding utf-8
-#####注释编码设置成utf8 
+##### window 注释编码设置成utf8 
 git config --global i18n.commitencoding  utf-8
 ###在winow上使用gbk显示注释 git 2.21.0 后不需要设置这个参数
 #git config --global i18n.logoutputencoding gbk
-#### 解决git status中文文件名乱码
-git config --global core.quotepath false
 ####配置对比工具
 git config --global diff.tool p4merge
 git config --global difftool.p4merge.cmd 'p4merge $LOCAL $REMOTE'
