@@ -13,7 +13,7 @@
 ### 数字自动编号 https://github.com/jbrooksuk/InsertNums
 列选中模式下面，按快捷键ctrl+alt+n 输入1:n,1表示从1开始编号，n表示每次增值
 
-### IDEA列编辑快捷键
+### IDEA列编辑操作详解
 + 在编辑器中,按下 Alt+Shift+Insert 快捷键可以进入退出列编辑模式;
 + 在编辑器中,鼠标右键Column Selection Mode 可以进入/退出列编辑模式;
 + 在编辑器中,选中字符(1个或者多个),连续按 Alt+J 快捷键可以选中该字符,移动光标可以进入列编辑模式,按Esc可以退出;
@@ -26,6 +26,3 @@
 + Insert Numbers 可以在列编辑模式下插入有序的行号，还可以自动不全0
 + 转换成大写 自己定义快捷键Super+alt+u，转换成小写，自定义快捷键Super+alt+u;
 + 按住ctrl键移动光标可以,按照整词或者一个引号里面的所有内容跳动
-
-
-本机上使用时需先同时按下Alt+Shift+Insert，切换到列编辑模式，再按Shift和上下方向键，就可以进行列编辑了。列编辑后再Alt+Shift+Insert，退出列编辑模式。
