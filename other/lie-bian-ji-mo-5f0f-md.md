@@ -16,7 +16,9 @@
 ### IDEA列编辑快捷键
  + 本机上使用时需先同时按下Alt+Shift+Insert，切换到列编辑模式，再按Shift和上下方向键，就可以进行列编辑了。列编辑后再Alt+Shift+Insert，退出列编辑模式。
  + 同上 鼠标右键 column selection mode 可以查看列编辑快捷键
- 
+ + alt+j 一个个选择相同的词语或者字符,移动光标可以进行相同词语或者字符
+ + ctrl+shift+alt+j 选择相同词语到文件末尾
+ + 同上 鼠标右键 column selection mode 可以查看列编辑快捷键,拖动鼠标可以选择区域,Home和end键可以把编辑的置于行首和行尾
 ### Visual Studio Code
 + 全部选择之后，按快捷键shift+alt+i，分散编辑点到各行
 + Insert Numbers 可以在列编辑模式下插入有序的行号，还可以自动不全0
