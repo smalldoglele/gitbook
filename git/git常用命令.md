@@ -169,9 +169,10 @@ git config --global alias.mt mergetool
 git pull <远程主机名> <本地分支名>:<远程分支名>
 git push <远程主机名> <本地分支名>:<远程分支名>
 ```
-+ ###标签的同送和删除 
++ ###标签的推送和删除 
 ```
 git push --tags 
 # 删除远程分支
-git push origin   :refs/tags/v3.4
+git push origin  --delete branch_name
+
 ```
