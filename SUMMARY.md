@@ -52,6 +52,7 @@
   * [vue环境学习](前端开发/vue环境学习.md)
 * [其他](other/README.md)
   * [程序备份发布shell脚本](other/cheng-xu-bei-fen-fa-bu-shell-jiao-ben.md)
+  * [SpringBoot启动脚本](other/springboot启动脚本.md)
   * [编辑器列编辑模式.md](other/lie-bian-ji-mo-5f0f-md.md)
   * [20条数据库设计最佳实践](other/20tiao-shu-ju-ku-she-ji-zui-jia-shi-jian.md)
   * [shadowsocks配置教程](other/shadowsockspei-zhi-jiao-cheng.md)
